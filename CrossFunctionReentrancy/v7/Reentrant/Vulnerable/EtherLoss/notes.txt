@@ -1,0 +1,4 @@
+Single- und cross-function reentrancy möglich!
+
+
+consider require() vs if(){}?
