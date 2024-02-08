@@ -15,11 +15,11 @@ contract Reentrancy {
         userRequests += 1;
         bool success = false;
         if (userRequests == 100) {
-            (success, ) = msg.sender.call("winner()");
+            (success, ) = msg.sender.call(abi.encodeWithSignature("winner()"));
             require(success);
             winner = msg.sender;
         } else {
-            (success, ) = msg.sender.call("loser()");
+            (success, ) = msg.sender.call(abi.encodeWithSignature("loser()"));
             require(success);
         }
 
