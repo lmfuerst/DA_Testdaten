@@ -12,13 +12,13 @@ contract Intermediary {
     constructor(uint _amount, address sender, uint userRequests) {
         amount = _amount;
 
-		// the 100th address to call the contract wins
-		if (userRequests == 100) {
+        // the 100th address to call the contract wins
+        if (userRequests == 100) {
             winner = sender;
-		}
-        
+        }
+
     }
-    
+
 }
 
 contract Bank {
@@ -33,8 +33,8 @@ contract Bank {
 
         userRequests += 1;
         userCalled[msg.sender] = true;
-        subs[msg.sender] = new Intermediary(amount, msg.sender, userRequests);        
+        subs[msg.sender] = new Intermediary(amount, msg.sender, userRequests);
 
     }
-    
+
 }

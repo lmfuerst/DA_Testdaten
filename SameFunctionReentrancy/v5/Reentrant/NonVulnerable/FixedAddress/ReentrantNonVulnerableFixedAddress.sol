@@ -2,7 +2,7 @@ pragma solidity ^0.5.17;
 
 contract Reentrancy {
     mapping(address => uint) public userRequests;
-	address payable private receiver = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
+    address payable private receiver = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
 
     constructor() public payable {}
 

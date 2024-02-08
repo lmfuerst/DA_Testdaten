@@ -13,7 +13,7 @@ contract Reentrancy {
             uint256 e = etherAmount + (tokenAmount * 2);
             msg.sender.transfer(e);
             // state update causing inconsistent state
-			etherBalance[msg.sender] = 0;
+            etherBalance[msg.sender] = 0;
             tokenBalance[msg.sender] = 0;
         }
     }

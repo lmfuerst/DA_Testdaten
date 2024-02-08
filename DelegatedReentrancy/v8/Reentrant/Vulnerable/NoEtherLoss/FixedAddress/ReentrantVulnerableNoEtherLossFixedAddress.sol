@@ -18,13 +18,13 @@ contract Reentrancy {
 
     function request() public {
         _libsend(receiver);
-		userRequests += 1;
+        userRequests += 1;
     }
 
     struct s { bytes4 sig; address to; }
 
     function _libsend(address to) internal {
-        // call send function of the Library contract with DELEGATECALL                  
+        // call send function of the Library contract with DELEGATECALL
         address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to));
     }
 

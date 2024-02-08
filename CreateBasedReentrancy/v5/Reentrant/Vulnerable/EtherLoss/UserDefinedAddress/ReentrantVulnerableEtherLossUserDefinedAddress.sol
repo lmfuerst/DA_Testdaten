@@ -29,7 +29,7 @@ contract Intermediary {
             msg.sender.transfer(amount);
         }
     }
-    
+
     function () external payable {}
 }
 
@@ -56,7 +56,7 @@ contract Bank {
             address(subs[msg.sender]).transfer(amount);
         }
     }
-    
+
     function deposit() public payable {
         balances[msg.sender] += msg.value;
     }

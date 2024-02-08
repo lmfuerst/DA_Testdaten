@@ -9,13 +9,13 @@ contract Intermediary {
     // this contract just holds the funds until the owner comes along and
     // withdraws them.
 
-	address owner;
+    address owner;
     Bank bank;
     uint amount;
 
     constructor(Bank _bank, address _owner, uint _amount) public {
         bank = _bank;
-		owner = _owner;
+        owner = _owner;
         amount = _amount;
 
         // this contract wants to register itself with its new owner, so it
@@ -29,7 +29,7 @@ contract Intermediary {
             payable(msg.sender).transfer(amount);
         }
     }
-    
+
     fallback() external payable {}
 }
 
@@ -60,7 +60,7 @@ contract Bank {
             payable(address(subs[msg.sender])).transfer(amount);
         }
     }
-    
+
     function deposit() public payable nonReentrant {
         balances[msg.sender] += msg.value;
     }

@@ -2,22 +2,22 @@ pragma solidity ^0.4.26;
 
 contract Reentrancy {
     mapping(address => bool) public userCalled;
-	uint public userRequests;
-	address public winner;
-	address private receiver = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
+    uint public userRequests;
+    address public winner;
+    address private receiver = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
 
     function Reentrancy() public payable {}
 
     function request() public {
-		// the 100th address to call the contract wins
-		require(userRequests < 100);
+        // the 100th address to call the contract wins
+        require(userRequests < 100);
         require(!userCalled[msg.sender]);
-		
+
         userRequests += 1;
-		if (userRequests == 100) {
-			winner = msg.sender;
-		}
-        
+        if (userRequests == 100) {
+            winner = msg.sender;
+        }
+
         userCalled[msg.sender] = true;
     }
 
