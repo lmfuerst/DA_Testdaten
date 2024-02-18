@@ -1,4 +1,0 @@
-Single- und cross-function reentrancy möglich, da withdrawAll() alleine auch mehrmals aufgerufen werden kann!
-
-
-consider require() vs if(){}?
