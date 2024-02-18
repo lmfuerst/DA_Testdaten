@@ -1,9 +1,5 @@
-pragma solidity 0.8.10;
+pragma solidity ^0.8.0;
 
-abstract contract IntermediaryCallback {
-    function gameWon() public virtual;
-    function gameLost() public virtual;
-}
 
 contract Intermediary {
     uint amount;
@@ -34,7 +30,6 @@ contract Bank {
         userRequests += 1;
         userCalled[msg.sender] = true;
         subs[msg.sender] = new Intermediary(amount, msg.sender, userRequests);
-
     }
 
 }

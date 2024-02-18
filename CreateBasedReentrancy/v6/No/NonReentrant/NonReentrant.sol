@@ -1,9 +1,5 @@
 pragma solidity ^0.6.12;
 
-abstract contract IntermediaryCallback {
-    function gameWon() public virtual;
-    function gameLost() public virtual;
-}
 
 contract Intermediary {
     uint amount;
