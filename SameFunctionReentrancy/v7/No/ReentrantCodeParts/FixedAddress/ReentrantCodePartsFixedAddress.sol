@@ -2,7 +2,7 @@ pragma solidity ^0.7.6;
 
 contract Reentrancy {
     mapping(address => bool) private userBalances;
-	address payable private receiver = payable(address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef));
+    address payable private receiver = payable(address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef));
     bool public lock = false;
 
     constructor() payable {}

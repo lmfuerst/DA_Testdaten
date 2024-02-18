@@ -20,7 +20,7 @@ contract Intermediary {
         // untrusted third-party contract.
         IntermediaryCallback(owner).registerIntermediary(address(this));
     }
-    
+
 }
 
 contract Bank {

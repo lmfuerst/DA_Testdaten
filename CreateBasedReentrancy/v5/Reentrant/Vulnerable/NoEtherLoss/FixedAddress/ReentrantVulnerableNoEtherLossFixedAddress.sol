@@ -12,15 +12,15 @@ contract Intermediary {
     constructor(uint _amount, uint userRequests) public {
         amount = _amount;
 
-		// the 100th address to call the contract wins
-		if (userRequests == 100) {
+        // the 100th address to call the contract wins
+        if (userRequests == 100) {
             IntermediaryCallback(owner).gameWon();
-		} else {
-			IntermediaryCallback(owner).gameLost();
-        }  
-        
+        } else {
+            IntermediaryCallback(owner).gameLost();
+        }
+
     }
-    
+
 }
 
 contract Bank {
@@ -44,7 +44,7 @@ contract Bank {
         subs[msg.sender] = new Intermediary(amount, userRequests);
         // state update **after** the CREATE
         userCalled[msg.sender] = true;
-        
+
     }
-    
+
 }

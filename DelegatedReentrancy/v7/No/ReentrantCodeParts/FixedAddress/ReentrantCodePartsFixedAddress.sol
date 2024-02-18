@@ -34,7 +34,7 @@ contract Bank {
         owner = msg.sender;
         safesender = _safesender;
     }
-    
+
     function getBalance(address who) public view returns(uint) {
         return balances[who];
     }
@@ -54,7 +54,7 @@ contract Bank {
     }
 
     function _libsend(address to, uint256 amount) internal {
-        // call send function of the Library contract with DELEGATECALL              
+        // call send function of the Library contract with DELEGATECALL
         address(safesender).delegatecall(abi.encodeWithSignature("send(address,uint256)", to, amount));
     }
 }

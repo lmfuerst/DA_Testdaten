@@ -31,7 +31,7 @@ contract Bank {
             safesender = _new;
         }
     }
-    
+
     function getBalance(address who) public view returns(uint) {
         return balances[who];
     }

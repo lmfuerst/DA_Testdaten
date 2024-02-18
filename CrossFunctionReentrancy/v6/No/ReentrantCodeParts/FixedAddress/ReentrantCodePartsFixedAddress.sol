@@ -3,12 +3,12 @@ pragma solidity ^0.6.12;
 contract Reentrancy {
     mapping(address => uint256) tokenBalance;
     mapping(address => uint256) etherBalance;
-	address payable private receiver = payable(address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef));
-	bool public lock = false;
+    address payable private receiver = payable(address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef));
+    bool public lock = false;
 
     constructor() public payable {}
-	
-	modifier nonReentrant() {
+
+    modifier nonReentrant() {
         require(lock == false);
         lock = true;
         _;
@@ -22,7 +22,7 @@ contract Reentrancy {
             uint256 e = etherAmount + (tokenAmount * 2);
             receiver.call{value: e}("");
             // state update causing inconsistent state
-			etherBalance[msg.sender] = 0;
+            etherBalance[msg.sender] = 0;
             tokenBalance[msg.sender] = 0;
         }
     }
