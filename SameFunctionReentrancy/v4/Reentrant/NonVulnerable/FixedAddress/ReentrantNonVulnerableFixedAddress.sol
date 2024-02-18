@@ -7,9 +7,9 @@ contract Reentrancy {
     function Reentrancy() payable {}
 
     function request() public {
+        userRequests[msg.sender] += 1;
         bool success = receiver.call("");
         require(success);
-        userRequests[msg.sender] += 1;
     }
 
 }
