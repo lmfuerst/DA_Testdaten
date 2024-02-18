@@ -11,7 +11,6 @@ contract Intermediary {
 
     address owner = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
     Bank bank;
-    uint amount;
 
     constructor(Bank _bank) public {
         bank = _bank;
@@ -33,7 +32,7 @@ contract Bank {
     }
 
     function count() public {
-        subs[msg.sender] = new Intermediary(this);
         counter[msg.sender] += 1;
+        subs[msg.sender] = new Intermediary(this);
     }
 }

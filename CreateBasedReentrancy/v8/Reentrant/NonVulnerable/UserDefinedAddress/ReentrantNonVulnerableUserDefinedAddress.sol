@@ -11,11 +11,9 @@ contract Intermediary {
 
     Bank bank;
     address owner;
-    uint amount;
 
-    constructor(Bank _bank, address _owner, uint _amount) {
+    constructor(Bank _bank, address _owner) {
         bank = _bank;
-        amount = _amount;
         owner = _owner;
 
         // this contract wants to register itself with its new owner, so it
@@ -24,32 +22,18 @@ contract Intermediary {
         IntermediaryCallback(owner).registerIntermediary(address(this));
     }
 
-    function withdraw() public {
-        if (msg.sender == owner) {
-            payable(msg.sender).transfer(amount);
-        }
-    }
-
-    fallback() external payable {}
 }
 
 contract Bank {
-    mapping (address => uint) balances;
+    mapping (address => uint) counter;
     mapping (address => Intermediary) subs;
 
-    function getBalance(address a) public view returns(uint) {
-        return balances[a];
+    function getCounter(address a) public view returns(uint) {
+        return counter[a];
     }
 
-    function withdraw(uint amount) public {
-        if (balances[msg.sender] >= amount) {
-            balances[msg.sender] -= amount;
-            subs[msg.sender] = new Intermediary(this, msg.sender, amount);
-            payable(address(subs[msg.sender])).transfer(amount);
-        }
-    }
-
-    function deposit() public payable {
-        balances[msg.sender] += msg.value;
+    function count() public {
+        counter[msg.sender] += 1;
+        subs[msg.sender] = new Intermediary(this, msg.sender);
     }
 }

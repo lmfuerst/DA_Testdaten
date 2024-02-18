@@ -11,11 +11,9 @@ contract Intermediary {
 
     address owner = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
     Bank bank;
-    uint amount;
 
-    constructor(Bank _bank, uint _amount) {
+    constructor(Bank _bank) {
         bank = _bank;
-        amount = _amount;
 
         // this contract wants to register itself with its new owner, so it
         // calls the new owner (i.e. the attacker). This passes control to an
@@ -23,32 +21,18 @@ contract Intermediary {
         IntermediaryCallback(owner).registerIntermediary(address(this));
     }
 
-    function withdraw() public {
-        if (msg.sender == owner) {
-            payable(msg.sender).transfer(amount);
-        }
-    }
-
-    fallback() external payable {}
 }
 
 contract Bank {
-    mapping (address => uint) balances;
+    mapping (address => uint) counter;
     mapping (address => Intermediary) subs;
 
-    function getBalance(address a) public view returns(uint) {
-        return balances[a];
+    function getCounter(address a) public view returns(uint) {
+        return counter[a];
     }
 
-    function withdraw(uint amount) public {
-        if (balances[msg.sender] >= amount) {
-            balances[msg.sender] -= amount;
-            subs[msg.sender] = new Intermediary(this, amount);
-            payable(address(subs[msg.sender])).transfer(amount);
-        }
-    }
-
-    function deposit() public payable {
-        balances[msg.sender] += msg.value;
+    function count() public {
+        counter[msg.sender] += 1;
+        subs[msg.sender] = new Intermediary(this);
     }
 }
