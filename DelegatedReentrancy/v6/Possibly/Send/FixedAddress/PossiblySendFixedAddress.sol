@@ -17,7 +17,7 @@ library SafeSending {
 }
 
 contract Bank {
-    mapping (address => uint) public balances;
+    mapping(address => uint) public balances;
     address owner;
     address private receiver = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
     address safesender;
@@ -28,7 +28,7 @@ contract Bank {
     }
 
 
-    function getBalance(address who) public view returns(uint) {
+    function getBalance(address who) public view returns (uint) {
         return balances[who];
     }
 
@@ -48,6 +48,6 @@ contract Bank {
 
     function _libsend(address to, uint256 amount) internal {
         // call send function of the Library contract with DELEGATECALL
-       address(safesender).delegatecall(abi.encodeWithSignature("send(address,uint256)", to, amount));
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address,uint256)", to, amount));
     }
 }

@@ -33,10 +33,10 @@ contract Intermediary {
 }
 
 contract Bank {
-    mapping (address => uint) balances;
-    mapping (address => Intermediary) subs;
+    mapping(address => uint) balances;
+    mapping(address => Intermediary) subs;
 
-    function getBalance(address a) public view returns(uint) {
+    function getBalance(address a) public view returns (uint) {
         return balances[a];
     }
 

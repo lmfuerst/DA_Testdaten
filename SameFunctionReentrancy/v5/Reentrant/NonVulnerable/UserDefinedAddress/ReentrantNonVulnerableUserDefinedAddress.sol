@@ -7,7 +7,7 @@ contract Reentrancy {
 
     function request() public {
         userRequests[msg.sender] += 1;
-        (bool success, ) = msg.sender.call("");
+        (bool success,) = msg.sender.call("");
         require(success);
     }
 

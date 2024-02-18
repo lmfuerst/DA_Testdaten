@@ -29,12 +29,12 @@ contract Intermediary {
         }
     }
 
-    function () external payable {}
+    function() external payable {}
 }
 
 contract Bank {
-    mapping (address => uint) balances;
-    mapping (address => Intermediary) subs;
+    mapping(address => uint) balances;
+    mapping(address => Intermediary) subs;
     bool locked = false;
 
     modifier nonReentrant() {

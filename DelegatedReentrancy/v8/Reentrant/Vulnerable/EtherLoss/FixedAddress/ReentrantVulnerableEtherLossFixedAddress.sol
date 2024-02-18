@@ -17,7 +17,7 @@ library SafeSending {
 }
 
 contract Bank {
-    mapping (address => uint) public balances;
+    mapping(address => uint) public balances;
     address owner;
     address private receiver = address(0xBEeFbeefbEefbeEFbeEfbEEfBEeFbeEfBeEfBeef);
     address safesender;
@@ -27,7 +27,7 @@ contract Bank {
         safesender = _safesender;
     }
 
-    function getBalance(address who) public view returns(uint) {
+    function getBalance(address who) public view returns (uint) {
         return balances[who];
     }
 

@@ -17,7 +17,7 @@ library SafeSending {
 }
 
 contract Bank {
-    mapping (address => uint) public balances;
+    mapping(address => uint) public balances;
     address owner;
     SafeSending safesender;
 
@@ -32,7 +32,7 @@ contract Bank {
         }
     }
 
-    function getBalance(address who) public view returns(uint) {
+    function getBalance(address who) public view returns (uint) {
         return balances[who];
     }
 

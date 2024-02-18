@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 abstract contract IntermediaryCallback {
     function gameWon() public virtual;
+
     function gameLost() public virtual;
 }
 
@@ -24,7 +25,7 @@ contract Intermediary {
 }
 
 contract Bank {
-    mapping (address => Intermediary) subs;
+    mapping(address => Intermediary) subs;
     mapping(address => bool) public userCalled;
     uint public userRequests;
 

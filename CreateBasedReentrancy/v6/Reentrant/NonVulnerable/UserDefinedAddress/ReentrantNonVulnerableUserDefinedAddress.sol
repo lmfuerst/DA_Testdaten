@@ -25,10 +25,10 @@ contract Intermediary {
 }
 
 contract Bank {
-    mapping (address => uint) counter;
-    mapping (address => Intermediary) subs;
+    mapping(address => uint) counter;
+    mapping(address => Intermediary) subs;
 
-    function getCounter(address a) public view returns(uint) {
+    function getCounter(address a) public view returns (uint) {
         return counter[a];
     }
 

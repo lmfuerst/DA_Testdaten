@@ -18,7 +18,7 @@ contract Intermediary {
 }
 
 contract Bank {
-    mapping (address => Intermediary) subs;
+    mapping(address => Intermediary) subs;
     mapping(address => bool) public userCalled;
     uint public userRequests;
 

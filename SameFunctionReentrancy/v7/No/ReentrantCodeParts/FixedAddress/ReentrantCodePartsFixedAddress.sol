@@ -16,7 +16,7 @@ contract Reentrancy {
 
     function withdrawBalance() public nonReentrant {
         require(!userBalances[msg.sender]);
-        (bool success,) = receiver.call{value : 500000}("");
+        (bool success,) = receiver.call{value: 500000}("");
         require(success);
         userBalances[msg.sender] = true;
     }

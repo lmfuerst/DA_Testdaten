@@ -3,6 +3,7 @@ pragma solidity ^0.5.17;
 
 contract IntermediaryCallback {
     function gameWon() public;
+
     function gameLost() public;
 }
 
@@ -24,7 +25,7 @@ contract Intermediary {
 }
 
 contract Bank {
-    mapping (address => Intermediary) subs;
+    mapping(address => Intermediary) subs;
     mapping(address => bool) public userCalled;
     uint public userRequests;
 

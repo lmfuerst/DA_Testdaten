@@ -21,7 +21,7 @@ contract Reentrancy {
         userRequests += 1;
     }
 
-    struct s { bytes4 sig; address to; }
+    struct s {bytes4 sig; address to;}
 
     function _libsend(address to) internal {
         // call send function of the Library contract with DELEGATECALL
