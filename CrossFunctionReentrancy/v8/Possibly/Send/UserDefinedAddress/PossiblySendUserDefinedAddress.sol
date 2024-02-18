@@ -11,7 +11,7 @@ contract Reentrancy {
         uint256 tokenAmount = tokenBalance[msg.sender];
         if (etherAmount > 0 && tokenAmount > 0) {
             uint256 e = etherAmount + (tokenAmount * 2);
-            msg.sender.send(e);
+            payable(msg.sender).send(e);
             // state update causing inconsistent state
             etherBalance[msg.sender] = 0;
             tokenBalance[msg.sender] = 0;

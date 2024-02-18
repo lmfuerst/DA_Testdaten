@@ -7,7 +7,7 @@ contract Reentrancy {
 
     function withdrawBalance() public {
         require(!userBalances[msg.sender]);
-        msg.sender.transfer(500000);
+        payable(msg.sender).transfer(500000);
         userBalances[msg.sender] = true;
     }
 
