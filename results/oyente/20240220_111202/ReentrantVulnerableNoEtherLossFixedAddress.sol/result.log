@@ -1,0 +1,40 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:
+/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:9:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Reentrancy() payable {}
+    ^------------------------------^
+/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:9:5: Warning: No visibility specified. Defaulting to "public". 
+    function Reentrancy() payable {}
+    ^------------------------------^
+
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 99.0%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:23:23: Warning: Integer Underflow.
+            success = receiver.call(abi.encodeWithSignature("loser()"))
+Integer Underflow occurs if:
+    userRequests = 0
+    userCalled[msg.sender] = 0
+/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:19:23: Warning: Integer Underflow.
+            success = receiver.call(abi.encodeWithSignature("winner()"))
+Integer Underflow occurs if:
+    userCalled[msg.sender] = 0
+    userRequests = 99
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:23:23: Warning: Integer Overflow.
+            success = receiver.call(abi.encodeWithSignature("loser()"))
+Integer Overflow occurs if:
+    userRequests = 0
+    userCalled[msg.sender] = 0
+/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:19:23: Warning: Integer Overflow.
+            success = receiver.call(abi.encodeWithSignature("winner()"))
+Integer Overflow occurs if:
+    userCalled[msg.sender] = 0
+    userRequests = 99
+INFO:symExec:	====== Analysis Completed ======

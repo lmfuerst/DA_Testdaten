@@ -1,0 +1,60 @@
+[INFO] | 2024-02-20 10:47:34 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis started at: 2024-02-20 10:47:34 AM
+[INFO] | 2024-02-20 10:47:34 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for gameWon
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for gameWon
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function gameWon
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for gameLost
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for gameLost
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function gameLost
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for withdraw
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for withdraw
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function withdraw
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for constructor
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for constructor
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function constructor
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Value Range Analysis took 0.002710 seconds
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Dependency detection started!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | DAO dependency possibly detected in file ReentrantVulnerableNoEtherLossUserDefinedAddress.sol in contract Bank in by composing functions withdraw and withdraw
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Static Analysis took 1.904710 seconds
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Dependency exists
+[INFO] | 2024-02-20 10:47:36 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Invoking symbolic executor!
+[INFO] | 2024-02-20 10:47:37 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | DAO dependency detected by composing functions withdraw and withdraw
+[INFO] | 2024-02-20 10:47:37 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Symbolic execution took 1.145101 seconds
+[INFO] | 2024-02-20 10:47:37 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Symbolic execution finished!
+[INFO] | 2024-02-20 10:47:37 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis finished!
+[INFO] | 2024-02-20 10:47:37 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis took 3.050289 seconds
+[INFO] | 2024-02-20 10:47:37 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis finished at: 2024-02-20 10:47:37 AM
+[36m[#] Analysing started: ReentrantVulnerableNoEtherLossUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for gameWon[0m
+[36m[#] Interprocedural CFG generated for gameWon[0m
+[36m[#] Interprocedural CFG generation started for gameLost[0m
+[36m[#] Interprocedural CFG generated for gameLost[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for withdraw[0m
+[36m[#] Interprocedural CFG generated for withdraw[0m
+[36m[#] SDG generation started for gameWon[0m
+[36m[#] SDG generated for gameWon[0m
+[36m[#] SDG generation started for gameLost[0m
+[36m[#] SDG generated for gameLost[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for withdraw[0m
+[36m[#] SDG generated for withdraw[0m
+[36m[#] Analysis took 3.050289 seconds[0m
+[36m[#] Analysis completed: ReentrantVulnerableNoEtherLossUserDefinedAddress.sol [0m

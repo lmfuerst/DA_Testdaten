@@ -1,0 +1,57 @@
+[INFO] | 2024-02-20 11:05:39 AM | analyzer.ReentrantNonVulnerableFixedAddress | Analysis started at: 2024-02-20 11:05:39 AM
+[INFO] | 2024-02-20 11:05:39 AM | analyzer.ReentrantNonVulnerableFixedAddress | Found version: 0.6.12
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Storage dependency graph generation started!
+[WARNING] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Issues with getting the high level call destination address
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Generating return summary for send
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Return summary generated for send
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Processed function send
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Generating return summary for constructor
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Return summary generated for constructor
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Processed function constructor
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Generating return summary for _libsend
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Return summary generated for _libsend
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Processed function _libsend
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Generating return summary for slitherConstructorVariables
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Return summary generated for slitherConstructorVariables
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Processed function slitherConstructorVariables
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Generating return summary for request
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Return summary generated for request
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Processed function request
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Value Range Analysis took 0.002988 seconds
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Dependency detection started!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Static Analysis took 2.934358 seconds
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Dependency does not exist
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Symbolic execution is not needed!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Analysis finished!
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Analysis took 2.934680 seconds
+[INFO] | 2024-02-20 11:05:42 AM | analyzer.ReentrantNonVulnerableFixedAddress | Analysis finished at: 2024-02-20 11:05:42 AM
+[36m[#] Analysing started: ReentrantNonVulnerableFixedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for send[0m
+[36m[#] Interprocedural CFG generated for send[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for request[0m
+[36m[#] Interprocedural CFG generated for request[0m
+[36m[#] SDG generation started for send[0m
+[36m[#] SDG generated for send[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for request[0m
+[36m[#] SDG generated for request[0m
+[36m[#] Analysis took 2.934680 seconds[0m
+[36m[#] Analysis completed: ReentrantNonVulnerableFixedAddress.sol [0m

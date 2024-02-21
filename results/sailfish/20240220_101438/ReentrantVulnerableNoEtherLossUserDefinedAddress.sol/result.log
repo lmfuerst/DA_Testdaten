@@ -1,0 +1,25 @@
+[INFO] | 2024-02-20 11:14:41 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis started at: 2024-02-20 11:14:41 AM
+[INFO] | 2024-02-20 11:14:41 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Found version: 0.6.12
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for constructor
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for constructor
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function constructor
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for request
+[INFO] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for request
+[WARNING] | 2024-02-20 11:14:43 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | instrs length LocalVariableInitFromTupleSolc is more than 1
+[36m[#] Analysing started: ReentrantVulnerableNoEtherLossUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for request[0m
+[36m[#] Interprocedural CFG generated for request[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for request[0m
+[36m[#] SDG generated for request[0m

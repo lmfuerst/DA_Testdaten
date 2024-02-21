@@ -1,0 +1,27 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 68.1%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:11:14: Warning: Integer Underflow.
+        // the 100th address to call the co
+Integer Underflow occurs if:
+    userRequests = 0
+    userCalled[msg.sender] = 0
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:22:26: Warning: Integer Overflow.
+            (success,) = msg.sender.call(abi.encodeWithSignature("loser()"))
+Integer Overflow occurs if:
+    userRequests = 0
+    userCalled[msg.sender] = 0
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:18:26: Warning: Integer Overflow.
+            (success,) = msg.sender.call(abi.encodeWithSignature("winner()"))
+Integer Overflow occurs if:
+    userCalled[msg.sender] = 0
+    userRequests = 99
+INFO:symExec:	====== Analysis Completed ======

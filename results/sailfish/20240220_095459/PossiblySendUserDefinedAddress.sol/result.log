@@ -1,0 +1,48 @@
+[INFO] | 2024-02-20 10:55:02 AM | analyzer.PossiblySendUserDefinedAddress | Analysis started at: 2024-02-20 10:55:02 AM
+[INFO] | 2024-02-20 10:55:02 AM | analyzer.PossiblySendUserDefinedAddress | Found version: 0.5.17
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for constructor
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for constructor
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Processed function constructor
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for withdrawAll
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for withdrawAll
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Processed function withdrawAll
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for transfer
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for transfer
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Processed function transfer
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Value Range Analysis took 0.002182 seconds
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Dependency detection started!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Static Analysis took 1.973270 seconds
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Dependency does not exist
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Symbolic execution is not needed!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Analysis finished!
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Analysis took 1.973635 seconds
+[INFO] | 2024-02-20 10:55:04 AM | analyzer.PossiblySendUserDefinedAddress | Analysis finished at: 2024-02-20 10:55:04 AM
+[36m[#] Analysing started: PossiblySendUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for withdrawAll[0m
+[36m[#] Interprocedural CFG generated for withdrawAll[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for withdrawAll[0m
+[36m[#] SDG generated for withdrawAll[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] Analysis took 1.973635 seconds[0m
+[36m[#] Analysis completed: PossiblySendUserDefinedAddress.sol [0m

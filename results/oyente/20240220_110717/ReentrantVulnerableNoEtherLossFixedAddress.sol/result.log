@@ -1,0 +1,35 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:
+/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:6:9: Warning: Return value of low-level calls not used.
+        to.call("");
+        ^---------^
+/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:28:9: Warning: Return value of low-level calls not used.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to));
+        ^----------------------------------------------------------------------------^
+
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 63.5%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:12:11: Warning: Integer Underflow.
+    address private receiver = address(0
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:28:9: Warning: Integer Overflow.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to))
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:SafeSending:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 81.5%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:	====== Analysis Completed ======

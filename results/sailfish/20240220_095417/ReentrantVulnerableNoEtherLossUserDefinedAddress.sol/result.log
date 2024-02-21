@@ -1,0 +1,53 @@
+[INFO] | 2024-02-20 10:54:20 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis started at: 2024-02-20 10:54:20 AM
+[INFO] | 2024-02-20 10:54:20 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for Reentrancy
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for Reentrancy
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function Reentrancy
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for withdrawAll
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for withdrawAll
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function withdrawAll
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Generating return summary for transfer
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Return summary generated for transfer
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Processed function transfer
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Value Range Analysis took 0.001538 seconds
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Dependency detection started!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | DAO dependency possibly detected in file ReentrantVulnerableNoEtherLossUserDefinedAddress.sol in contract Reentrancy in by composing functions withdrawAll and withdrawAll
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | DAO dependency possibly detected in file ReentrantVulnerableNoEtherLossUserDefinedAddress.sol in contract Reentrancy in by composing functions withdrawAll and transfer
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Static Analysis took 2.143033 seconds
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Dependency exists
+[INFO] | 2024-02-20 10:54:22 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Invoking symbolic executor!
+[INFO] | 2024-02-20 10:54:23 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | DAO dependency detected by composing functions withdrawAll and transfer
+[INFO] | 2024-02-20 10:54:23 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Symbolic execution took 1.146151 seconds
+[INFO] | 2024-02-20 10:54:23 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Symbolic execution finished!
+[INFO] | 2024-02-20 10:54:23 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis finished!
+[INFO] | 2024-02-20 10:54:23 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis took 3.289716 seconds
+[INFO] | 2024-02-20 10:54:23 AM | analyzer.ReentrantVulnerableNoEtherLossUserDefinedAddress | Analysis finished at: 2024-02-20 10:54:23 AM
+[36m[#] Analysing started: ReentrantVulnerableNoEtherLossUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for Reentrancy[0m
+[36m[#] Interprocedural CFG generated for Reentrancy[0m
+[36m[#] Interprocedural CFG generation started for withdrawAll[0m
+[36m[#] Interprocedural CFG generated for withdrawAll[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] SDG generation started for Reentrancy[0m
+[36m[#] SDG generated for Reentrancy[0m
+[36m[#] SDG generation started for withdrawAll[0m
+[36m[#] SDG generated for withdrawAll[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] Analysis took 3.289716 seconds[0m
+[36m[#] Analysis completed: ReentrantVulnerableNoEtherLossUserDefinedAddress.sol [0m

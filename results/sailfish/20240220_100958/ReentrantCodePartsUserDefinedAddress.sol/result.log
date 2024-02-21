@@ -1,0 +1,55 @@
+[INFO] | 2024-02-20 11:10:01 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Analysis started at: 2024-02-20 11:10:01 AM
+[INFO] | 2024-02-20 11:10:01 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Generating return summary for Reentrancy
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Return summary generated for Reentrancy
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Processed function Reentrancy
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Generating return summary for slitherConstructorVariables
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Return summary generated for slitherConstructorVariables
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Processed function slitherConstructorVariables
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Generating return summary for nonReentrant
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Return summary generated for nonReentrant
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Processed function nonReentrant
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Generating return summary for withdrawBalance
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Return summary generated for withdrawBalance
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Processed function withdrawBalance
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Value Range Analysis took 0.002857 seconds
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 11:10:02 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Dependency detection started!
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | DAO dependency possibly detected in file ReentrantCodePartsUserDefinedAddress.sol in contract Reentrancy in by composing functions withdrawBalance and withdrawBalance
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Static Analysis took 1.850401 seconds
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Dependency exists
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Invoking symbolic executor!
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Symbolic execution took 0.511333 seconds
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Symbolic execution finished!
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Analysis finished!
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Analysis took 2.362173 seconds
+[INFO] | 2024-02-20 11:10:03 AM | analyzer.ReentrantCodePartsUserDefinedAddress | Analysis finished at: 2024-02-20 11:10:03 AM
+[36m[#] Analysing started: ReentrantCodePartsUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for modifier nonReentrant[0m
+[36m[#] Interprocedural CFG generated for modifer nonReentrant[0m
+[36m[#] Interprocedural CFG generation started for Reentrancy[0m
+[36m[#] Interprocedural CFG generated for Reentrancy[0m
+[36m[#] Interprocedural CFG generation started for withdrawBalance[0m
+[36m[#] Interprocedural CFG generated for withdrawBalance[0m
+[36m[#] SDG generation started for Reentrancy[0m
+[36m[#] SDG generated for Reentrancy[0m
+[36m[#] SDG generation started for withdrawBalance[0m
+[36m[#] SDG generated for withdrawBalance[0m
+[36m[#] SDG generation started for modifier nonReentrant[0m
+[36m[#] SDG generated for modifier nonReentrant[0m
+[36m[#] Analysis took 2.362173 seconds[0m
+[36m[#] Analysis completed: ReentrantCodePartsUserDefinedAddress.sol [0m

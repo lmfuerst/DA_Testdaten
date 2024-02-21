@@ -1,0 +1,4 @@
+21:21:26.989 [main] WARN  wien.secpriv.ethor.ContractLexer - No meta data found! Maybe contract has a malformed suffix!
+21:21:26.996 [main] WARN  wien.secpriv.ethor.ContractLexer - Integer 231 does not correspond to opcode!
+21:21:26.996 [main] WARN  wien.secpriv.ethor.ContractLexer - Encountered an unknown bytecode, skipping the subsequent after the byte...545
+/sb/Reentrancy.hex insecure

@@ -1,0 +1,53 @@
+[INFO] | 2024-02-21 11:14:12 PM | analyzer.NonReentrant | Analysis started at: 2024-02-21 11:14:12 PM
+[INFO] | 2024-02-21 11:14:12 PM | analyzer.NonReentrant | Found version: 0.4.26
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Callgraph generation started!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Callgraph generation finished!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Interprocedural CFG generation started!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Interprocedural CFG generation finished!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Storage dependency graph generation started!
+[WARNING] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Issues with getting the high level call destination address
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Storage dependency graph generation finished!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Value Range Analysis started
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Generating return summary for calc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Return summary generated for calc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | State variable assignement do not exist
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Processed function calc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Generating return summary for CalculatorUser
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Return summary generated for CalculatorUser
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Range graph generated
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Processed function CalculatorUser
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Generating return summary for _libcalc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Return summary generated for _libcalc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | State variable assignement do not exist
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Processed function _libcalc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Generating return summary for calc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Return summary generated for calc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | State variable assignement do not exist
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Processed function calc
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Value Range Analysis took 0.001238 seconds
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Value Range Analysis finished
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Storage dependency graph composition started!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Storage dependency graph composition finished!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Dependency detection started!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Dependency detection finished!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Static Analysis took 2.018534 seconds
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Dependency does not exist
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Symbolic execution is not needed!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Analysis finished!
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Analysis took 2.018766 seconds
+[INFO] | 2024-02-21 11:14:14 PM | analyzer.NonReentrant | Analysis finished at: 2024-02-21 11:14:14 PM
+[36m[#] Analysing started: NonReentrant.sol[0m
+[36m[#] Interprocedural CFG generation started for calc[0m
+[36m[#] Interprocedural CFG generated for calc[0m
+[36m[#] Interprocedural CFG generation started for CalculatorUser[0m
+[36m[#] Interprocedural CFG generated for CalculatorUser[0m
+[36m[#] Interprocedural CFG generation started for calc[0m
+[36m[#] Interprocedural CFG generated for calc[0m
+[36m[#] SDG generation started for calc[0m
+[36m[#] SDG generated for calc[0m
+[36m[#] SDG generation started for CalculatorUser[0m
+[36m[#] SDG generated for CalculatorUser[0m
+[36m[#] SDG generation started for calc[0m
+[36m[#] SDG generated for calc[0m
+[36m[#] Analysis took 2.018766 seconds[0m
+[36m[#] Analysis completed: NonReentrant.sol [0m

@@ -1,0 +1,45 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol
+
+Warning: Return value of low-level calls not used.
+ --> /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:6:9:
+  |
+6 |         to.call("");
+  |         ^^^^^^^^^^^
+
+Warning: Return value of low-level calls not used.
+  --> /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:28:9:
+   |
+28 |         address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to));
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+incomplete push instruction at 577
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:SafeSending:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 74.5%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 66.7%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:28:9: Warning: Integer Underflow.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to))
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol:28:9: Warning: Integer Overflow.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to))
+INFO:symExec:	====== Analysis Completed ======

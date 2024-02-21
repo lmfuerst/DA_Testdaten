@@ -1,0 +1,23 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/PossiblyTransferFixedAddress.sol:
+/sb/PossiblyTransferFixedAddress.sol:8:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Reentrancy() public payable {}
+    ^-------------------------------------^
+
+INFO:root:contract /sb/PossiblyTransferFixedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 97.8%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/PossiblyTransferFixedAddress.sol:25:13: Warning: Integer Overflow.
+            tokenBalance[to] += amount
+Integer Overflow occurs if:
+    amount = 57938452453005874615280298637860938028508748633530783054289495821861177524225
+    tokenBalance[to] = 66856184261385214108408597654402785422430169472278770250914080072048199204049
+    tokenBalance[msg.sender] = 57938452453005874615280298637860938028508748633530783054289495821861177524225
+INFO:symExec:	====== Analysis Completed ======

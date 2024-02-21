@@ -1,0 +1,52 @@
+[INFO] | 2024-02-20 10:56:55 AM | analyzer.PossiblyTransferFixedAddress | Analysis started at: 2024-02-20 10:56:55 AM
+[INFO] | 2024-02-20 10:56:55 AM | analyzer.PossiblyTransferFixedAddress | Found version: 0.6.12
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Generating return summary for constructor
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Return summary generated for constructor
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Processed function constructor
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Generating return summary for withdrawAll
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Return summary generated for withdrawAll
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Range graph generated
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Processed function withdrawAll
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Generating return summary for transfer
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Return summary generated for transfer
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Range graph generated
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Processed function transfer
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Generating return summary for slitherConstructorVariables
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Return summary generated for slitherConstructorVariables
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Range graph generated
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Processed function slitherConstructorVariables
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Value Range Analysis took 0.002940 seconds
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Dependency detection started!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Static Analysis took 2.394004 seconds
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Dependency does not exist
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Symbolic execution is not needed!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Analysis finished!
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Analysis took 2.394352 seconds
+[INFO] | 2024-02-20 10:56:57 AM | analyzer.PossiblyTransferFixedAddress | Analysis finished at: 2024-02-20 10:56:57 AM
+[36m[#] Analysing started: PossiblyTransferFixedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for withdrawAll[0m
+[36m[#] Interprocedural CFG generated for withdrawAll[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for withdrawAll[0m
+[36m[#] SDG generated for withdrawAll[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] Analysis took 2.394352 seconds[0m
+[36m[#] Analysis completed: PossiblyTransferFixedAddress.sol [0m

@@ -1,0 +1,56 @@
+[INFO] | 2024-02-20 10:47:04 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Analysis started at: 2024-02-20 10:47:04 AM
+[INFO] | 2024-02-20 10:47:04 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Generating return summary for registerIntermediary
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Return summary generated for registerIntermediary
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Processed function registerIntermediary
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Generating return summary for getCounter
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Return summary generated for getCounter
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Processed function getCounter
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Generating return summary for count
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Return summary generated for count
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Processed function count
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Generating return summary for constructor
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Return summary generated for constructor
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Processed function constructor
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Value Range Analysis took 0.002586 seconds
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Dependency detection started!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Static Analysis took 1.761694 seconds
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Dependency does not exist
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Symbolic execution is not needed!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Analysis finished!
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Analysis took 1.761981 seconds
+[INFO] | 2024-02-20 10:47:05 AM | analyzer.ReentrantNonVulnerableUserDefinedAddress | Analysis finished at: 2024-02-20 10:47:05 AM
+[36m[#] Analysing started: ReentrantNonVulnerableUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for registerIntermediary[0m
+[36m[#] Interprocedural CFG generated for registerIntermediary[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for getCounter[0m
+[36m[#] Interprocedural CFG generated for getCounter[0m
+[36m[#] Interprocedural CFG generation started for count[0m
+[36m[#] Interprocedural CFG generated for count[0m
+[36m[#] SDG generation started for registerIntermediary[0m
+[36m[#] SDG generated for registerIntermediary[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for getCounter[0m
+[36m[#] SDG generated for getCounter[0m
+[36m[#] SDG generation started for count[0m
+[36m[#] SDG generated for count[0m
+[36m[#] Analysis took 1.761981 seconds[0m
+[36m[#] Analysis completed: ReentrantNonVulnerableUserDefinedAddress.sol [0m

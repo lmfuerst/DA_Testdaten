@@ -1,0 +1,80 @@
+[INFO] | 2024-02-20 11:01:54 AM | analyzer.PossiblySendUserDefinedAddress | Analysis started at: 2024-02-20 11:01:54 AM
+[INFO] | 2024-02-20 11:01:54 AM | analyzer.PossiblySendUserDefinedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for send
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for send
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Processed function send
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for Bank
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for Bank
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Processed function Bank
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for updateSafeSender
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for updateSafeSender
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Processed function updateSafeSender
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for getBalance
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for getBalance
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Processed function getBalance
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for donate
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for donate
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Processed function donate
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for _libsend
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for _libsend
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Processed function _libsend
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Generating return summary for withdraw
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Return summary generated for withdraw
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Processed function withdraw
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Value Range Analysis took 0.004338 seconds
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Dependency detection started!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | DAO dependency possibly detected in file PossiblySendUserDefinedAddress.sol in contract Bank in by composing functions withdraw and withdraw
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Static Analysis took 1.908858 seconds
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Dependency exists
+[INFO] | 2024-02-20 11:01:56 AM | analyzer.PossiblySendUserDefinedAddress | Invoking symbolic executor!
+[INFO] | 2024-02-20 11:01:57 AM | analyzer.PossiblySendUserDefinedAddress | DAO dependency detected by composing functions withdraw and withdraw
+[INFO] | 2024-02-20 11:01:57 AM | analyzer.PossiblySendUserDefinedAddress | Symbolic execution took 1.050945 seconds
+[INFO] | 2024-02-20 11:01:57 AM | analyzer.PossiblySendUserDefinedAddress | Symbolic execution finished!
+[INFO] | 2024-02-20 11:01:57 AM | analyzer.PossiblySendUserDefinedAddress | Analysis finished!
+[INFO] | 2024-02-20 11:01:57 AM | analyzer.PossiblySendUserDefinedAddress | Analysis took 2.960231 seconds
+[INFO] | 2024-02-20 11:01:57 AM | analyzer.PossiblySendUserDefinedAddress | Analysis finished at: 2024-02-20 11:01:57 AM
+[36m[#] Analysing started: PossiblySendUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for send[0m
+[36m[#] Interprocedural CFG generated for send[0m
+[36m[#] Interprocedural CFG generation started for Bank[0m
+[36m[#] Interprocedural CFG generated for Bank[0m
+[36m[#] Interprocedural CFG generation started for updateSafeSender[0m
+[36m[#] Interprocedural CFG generated for updateSafeSender[0m
+[36m[#] Interprocedural CFG generation started for getBalance[0m
+[36m[#] Interprocedural CFG generated for getBalance[0m
+[36m[#] Interprocedural CFG generation started for donate[0m
+[36m[#] Interprocedural CFG generated for donate[0m
+[36m[#] Interprocedural CFG generation started for withdraw[0m
+[36m[#] Interprocedural CFG generated for withdraw[0m
+[36m[#] SDG generation started for send[0m
+[36m[#] SDG generated for send[0m
+[36m[#] SDG generation started for Bank[0m
+[36m[#] SDG generated for Bank[0m
+[36m[#] SDG generation started for updateSafeSender[0m
+[36m[#] SDG generated for updateSafeSender[0m
+[36m[#] SDG generation started for getBalance[0m
+[36m[#] SDG generated for getBalance[0m
+[36m[#] SDG generation started for donate[0m
+[36m[#] SDG generated for donate[0m
+[36m[#] SDG generation started for withdraw[0m
+[36m[#] SDG generated for withdraw[0m
+[36m[#] Analysis took 2.960231 seconds[0m
+[36m[#] Analysis completed: PossiblySendUserDefinedAddress.sol [0m

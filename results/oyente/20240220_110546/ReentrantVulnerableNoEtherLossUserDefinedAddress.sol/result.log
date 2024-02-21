@@ -1,0 +1,41 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:14:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Reentrancy(SafeSending _safesender) payable {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:6:9: Warning: Return value of low-level calls not used.
+        to.call("");
+        ^---------^
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:25:9: Warning: Return value of low-level calls not used.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to));
+        ^----------------------------------------------------------------------------^
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:14:5: Warning: No visibility specified. Defaulting to "public". 
+    function Reentrancy(SafeSending _safesender) payable {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:SafeSending:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 98.9%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 95.8%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:25:9: Warning: Integer Underflow.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to))
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:25:9: Warning: Integer Overflow.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address)", to))
+INFO:symExec:	====== Analysis Completed ======

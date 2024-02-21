@@ -1,0 +1,45 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantCodePartsUserDefinedAddress.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> /sb/ReentrantCodePartsUserDefinedAddress.sol
+
+Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.
+ --> /sb/ReentrantCodePartsUserDefinedAddress.sol:8:1:
+  |
+8 | contract Intermediary {
+  | ^ (Relevant source part starts here and spans across multiple lines).
+Note: The payable fallback function is defined here.
+  --> /sb/ReentrantCodePartsUserDefinedAddress.sol:33:5:
+   |
+33 |     fallback() external payable {}
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+incomplete push instruction at 1636
+INFO:root:contract /sb/ReentrantCodePartsUserDefinedAddress.sol:Intermediary:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 76.2%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /sb/ReentrantCodePartsUserDefinedAddress.sol:Bank:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 56.9%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantCodePartsUserDefinedAddress.sol:65:9: Warning: Integer Overflow.
+        balances[msg.sender] += msg.value
+Integer Overflow occurs if:
+    balances[msg.sender] = 1
+    locked = 0
+INFO:symExec:	====== Analysis Completed ======

@@ -1,0 +1,3 @@
+14:22:13.270 [main] WARN  wien.secpriv.ethor.ContractLexer - Integer 212 does not correspond to opcode!
+14:22:13.271 [main] WARN  wien.secpriv.ethor.ContractLexer - Encountered an unknown bytecode, skipping the subsequent after the byte...1150
+/sb/Bank.hex insecure

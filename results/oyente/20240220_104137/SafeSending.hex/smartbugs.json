@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_runtime.sh' '/sb/SafeSending.hex' '0'",
+        "image": "lmfue/oyente-update:v6",
+        "user": 0,
+        "volumes": {
+            "C:\\Users\\Lisa\\AppData\\Local\\Temp\\tmpzrsfgg49": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "\\Users\\Lisa\\Documents\\Uni\\Diplomarbeit\\testdata_new\\DelegatedReentrancy\\v6\\Reentrant\\Vulnerable\\EtherLoss\\UserDefinedAddress\\SafeSending.hex",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "python": "3.10.4.final.0 (64 bit)",
+        "release": "10",
+        "smartbugs": "2.0.8",
+        "system": "Windows",
+        "version": "10.0.19045"
+    },
+    "result": {
+        "duration": 1.7733590602874756,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1708425698.952493
+    },
+    "runid": "20240220_104137",
+    "solc": null,
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_runtime.sh' '$FILENAME' '$TIMEOUT'",
+        "id": "oyente",
+        "image": "lmfue/oyente-update:v6",
+        "info": "Oyente runs on symbolic execution, determines which inputs cause which program branches to execute, to find potential security vulnerabilities. Oyente works directly with EVM bytecode without access high level representation and does not provide soundness nor completeness.",
+        "mem_limit": null,
+        "mode": "runtime",
+        "name": "Oyente",
+        "origin": "https://github.com/smartbugs/oyente",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "0"
+    }
+}

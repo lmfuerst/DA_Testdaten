@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/ReentrantVulnerableEtherLossFixedAddress.sol' '/sb/bin'",
+        "image": "lmfue/sailfish:v5",
+        "user": 0,
+        "volumes": {
+            "C:\\Users\\Lisa\\AppData\\Local\\Temp\\tmput8j_qsv": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "\\Users\\Lisa\\Documents\\Uni\\Diplomarbeit\\testdata_new\\CrossFunctionReentrancy\\v4\\Reentrant\\Vulnerable\\EtherLoss\\FixedAddress\\ReentrantVulnerableEtherLossFixedAddress.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "python": "3.10.4.final.0 (64 bit)",
+        "release": "10",
+        "smartbugs": "2.0.8",
+        "system": "Windows",
+        "version": "10.0.19045"
+    },
+    "result": {
+        "duration": 3.5069217681884766,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1708422835.5911293
+    },
+    "runid": "20240220_095353",
+    "solc": null,
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$BIN'",
+        "id": "sailfish",
+        "image": "lmfue/sailfish:v5",
+        "info": "SAILFISH",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "SAILFISH",
+        "origin": "https://github.com/ucsb-seclab/sailfish",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "0.0.1"
+    }
+}

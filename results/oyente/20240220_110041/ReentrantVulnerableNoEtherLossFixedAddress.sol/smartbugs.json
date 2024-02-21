@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol' '0' '/sb/bin' '0'",
+        "image": "lmfue/oyente-update:v6",
+        "user": 0,
+        "volumes": {
+            "C:\\Users\\Lisa\\AppData\\Local\\Temp\\tmpi_prnnep": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "\\Users\\Lisa\\Documents\\Uni\\Diplomarbeit\\testdata_new\\CrossFunctionReentrancy\\v5\\Reentrant\\Vulnerable\\NoEtherLoss\\FixedAddress\\ReentrantVulnerableNoEtherLossFixedAddress.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "python": "3.10.4.final.0 (64 bit)",
+        "release": "10",
+        "smartbugs": "2.0.8",
+        "system": "Windows",
+        "version": "10.0.19045"
+    },
+    "result": {
+        "duration": 4.2078070640563965,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1708426842.9131362
+    },
+    "runid": "20240220_110041",
+    "solc": "0.5.17",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "oyente",
+        "image": "lmfue/oyente-update:v6",
+        "info": "Oyente runs on symbolic execution, determines which inputs cause which program branches to execute, to find potential security vulnerabilities. Oyente works directly with EVM bytecode without access high level representation and does not provide soundness nor completeness.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Oyente",
+        "origin": "https://github.com/smartbugs/oyente",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0"
+    }
+}

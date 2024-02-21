@@ -1,0 +1,23 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantCodePartsUserDefinedAddress.sol:
+/sb/ReentrantCodePartsUserDefinedAddress.sol:22:13: Warning: Return value of low-level calls not used.
+            msg.sender.call.value(e)("");
+            ^--------------------------^
+
+INFO:root:contract /sb/ReentrantCodePartsUserDefinedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 88.0%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantCodePartsUserDefinedAddress.sol:21:25: Warning: Integer Overflow.
+            uint256 e = etherAmount + (tokenAmount * 2)
+Integer Overflow occurs if:
+    tokenBalance[msg.sender] = 35266043051444515868091559918320622729120917948761560674715752272251320237564
+    etherBalance[msg.sender] = 95861605623551949485089272807291725301144645043131994733062851046233637583860
+    lock = 0
+INFO:symExec:	====== Analysis Completed ======

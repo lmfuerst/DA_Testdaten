@@ -1,0 +1,28 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/PossiblySendUserDefinedAddress.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> /sb/PossiblySendUserDefinedAddress.sol
+
+Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+  --> /sb/PossiblySendUserDefinedAddress.sol:14:13:
+   |
+14 |             msg.sender.send(e);
+   |             ^^^^^^^^^^^^^^^^^^
+
+
+INFO:root:contract /sb/PossiblySendUserDefinedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 81.2%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/PossiblySendUserDefinedAddress.sol:13:25: Warning: Integer Overflow.
+            uint256 e = etherAmount + (tokenAmount * 2)
+Integer Overflow occurs if:
+    tokenBalance[msg.sender] = 35266043051444515868091559918320622729120917948761560674715752272251320237564
+    etherBalance[msg.sender] = 95861605623551949485089272807291725301144645043131994733062851046233637583860
+INFO:symExec:	====== Analysis Completed ======

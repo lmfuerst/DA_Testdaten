@@ -1,0 +1,4 @@
+14:24:48.601 [main] WARN  wien.secpriv.ethor.ContractLexer - No meta data found! Maybe contract has a malformed suffix!
+14:24:48.607 [main] WARN  wien.secpriv.ethor.ContractLexer - Integer 77 does not correspond to opcode!
+14:24:48.607 [main] WARN  wien.secpriv.ethor.ContractLexer - Encountered an unknown bytecode, skipping the subsequent after the byte...219
+/sb/Intermediary.hex insecure

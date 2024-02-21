@@ -1,0 +1,44 @@
+[INFO] | 2024-02-20 11:12:49 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Analysis started at: 2024-02-20 11:12:49 AM
+[INFO] | 2024-02-20 11:12:49 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Found version: 0.5.17
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Generating return summary for constructor
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Return summary generated for constructor
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Processed function constructor
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Generating return summary for request
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Return summary generated for request
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Processed function request
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Generating return summary for slitherConstructorVariables
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Return summary generated for slitherConstructorVariables
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Processed function slitherConstructorVariables
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Value Range Analysis took 0.001504 seconds
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Dependency detection started!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Static Analysis took 2.006902 seconds
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Dependency does not exist
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Symbolic execution is not needed!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Analysis finished!
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Analysis took 2.007126 seconds
+[INFO] | 2024-02-20 11:12:51 AM | analyzer.ReentrantVulnerableNoEtherLossFixedAddress | Analysis finished at: 2024-02-20 11:12:51 AM
+[36m[#] Analysing started: ReentrantVulnerableNoEtherLossFixedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for request[0m
+[36m[#] Interprocedural CFG generated for request[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for request[0m
+[36m[#] SDG generated for request[0m
+[36m[#] Analysis took 2.007126 seconds[0m
+[36m[#] Analysis completed: ReentrantVulnerableNoEtherLossFixedAddress.sol [0m

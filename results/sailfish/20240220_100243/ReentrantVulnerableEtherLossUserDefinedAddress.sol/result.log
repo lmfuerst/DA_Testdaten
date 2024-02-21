@@ -1,0 +1,80 @@
+[INFO] | 2024-02-20 11:02:46 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Analysis started at: 2024-02-20 11:02:46 AM
+[INFO] | 2024-02-20 11:02:46 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Generating return summary for send
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Return summary generated for send
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Processed function send
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Generating return summary for Bank
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Return summary generated for Bank
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Processed function Bank
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Generating return summary for updateSafeSender
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Return summary generated for updateSafeSender
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Processed function updateSafeSender
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Generating return summary for getBalance
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Return summary generated for getBalance
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Processed function getBalance
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Generating return summary for donate
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Return summary generated for donate
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Processed function donate
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Generating return summary for _libsend
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Return summary generated for _libsend
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Processed function _libsend
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Generating return summary for withdraw
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Return summary generated for withdraw
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Range graph generated
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Processed function withdraw
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Value Range Analysis took 0.003781 seconds
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Dependency detection started!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | DAO dependency possibly detected in file ReentrantVulnerableEtherLossUserDefinedAddress.sol in contract Bank in by composing functions withdraw and withdraw
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Static Analysis took 1.534332 seconds
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Dependency exists
+[INFO] | 2024-02-20 11:02:48 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Invoking symbolic executor!
+[INFO] | 2024-02-20 11:02:49 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | DAO dependency detected by composing functions withdraw and withdraw
+[INFO] | 2024-02-20 11:02:49 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Symbolic execution took 1.080257 seconds
+[INFO] | 2024-02-20 11:02:49 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Symbolic execution finished!
+[INFO] | 2024-02-20 11:02:49 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Analysis finished!
+[INFO] | 2024-02-20 11:02:49 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Analysis took 2.614998 seconds
+[INFO] | 2024-02-20 11:02:49 AM | analyzer.ReentrantVulnerableEtherLossUserDefinedAddress | Analysis finished at: 2024-02-20 11:02:49 AM
+[36m[#] Analysing started: ReentrantVulnerableEtherLossUserDefinedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for send[0m
+[36m[#] Interprocedural CFG generated for send[0m
+[36m[#] Interprocedural CFG generation started for Bank[0m
+[36m[#] Interprocedural CFG generated for Bank[0m
+[36m[#] Interprocedural CFG generation started for updateSafeSender[0m
+[36m[#] Interprocedural CFG generated for updateSafeSender[0m
+[36m[#] Interprocedural CFG generation started for getBalance[0m
+[36m[#] Interprocedural CFG generated for getBalance[0m
+[36m[#] Interprocedural CFG generation started for donate[0m
+[36m[#] Interprocedural CFG generated for donate[0m
+[36m[#] Interprocedural CFG generation started for withdraw[0m
+[36m[#] Interprocedural CFG generated for withdraw[0m
+[36m[#] SDG generation started for send[0m
+[36m[#] SDG generated for send[0m
+[36m[#] SDG generation started for Bank[0m
+[36m[#] SDG generated for Bank[0m
+[36m[#] SDG generation started for updateSafeSender[0m
+[36m[#] SDG generated for updateSafeSender[0m
+[36m[#] SDG generation started for getBalance[0m
+[36m[#] SDG generated for getBalance[0m
+[36m[#] SDG generation started for donate[0m
+[36m[#] SDG generated for donate[0m
+[36m[#] SDG generation started for withdraw[0m
+[36m[#] SDG generated for withdraw[0m
+[36m[#] Analysis took 2.614998 seconds[0m
+[36m[#] Analysis completed: ReentrantVulnerableEtherLossUserDefinedAddress.sol [0m

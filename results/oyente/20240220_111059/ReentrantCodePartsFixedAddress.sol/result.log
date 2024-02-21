@@ -1,0 +1,20 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantCodePartsFixedAddress.sol:
+/sb/ReentrantCodePartsFixedAddress.sol:8:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Reentrancy() payable {}
+    ^------------------------------^
+/sb/ReentrantCodePartsFixedAddress.sol:8:5: Warning: No visibility specified. Defaulting to "public". 
+    function Reentrancy() payable {}
+    ^------------------------------^
+
+INFO:root:contract /sb/ReentrantCodePartsFixedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 98.6%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:	====== Analysis Completed ======

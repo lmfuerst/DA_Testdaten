@@ -1,0 +1,23 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantCodePartsUserDefinedAddress.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> /sb/ReentrantCodePartsUserDefinedAddress.sol
+
+
+incomplete push instruction at 543
+INFO:root:contract /sb/ReentrantCodePartsUserDefinedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 90.6%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantCodePartsUserDefinedAddress.sol:18:27: Warning: Integer Overflow.
+        (bool success,) = msg.sender.call{value: 500000}("")
+Integer Overflow occurs if:
+    userBalances[msg.sender] = 0
+    lock = 0
+INFO:symExec:	====== Analysis Completed ======

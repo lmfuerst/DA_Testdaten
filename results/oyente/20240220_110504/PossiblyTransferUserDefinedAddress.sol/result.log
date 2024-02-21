@@ -1,0 +1,45 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/PossiblyTransferUserDefinedAddress.sol:
+/sb/PossiblyTransferUserDefinedAddress.sol:24:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Bank(SafeSending _safesender) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/PossiblyTransferUserDefinedAddress.sol:55:9: Warning: Return value of low-level calls not used.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address,uint256)", to, amount));
+        ^--------------------------------------------------------------------------------------------^
+
+INFO:root:contract /sb/PossiblyTransferUserDefinedAddress.sol:Bank:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 99.8%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/PossiblyTransferUserDefinedAddress.sol:55:9: Warning: Integer Underflow.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address,uint256)", to, amount))
+Integer Underflow occurs if:
+    balances[msg.sender] = 0
+    amount = 0
+INFO:symExec:/sb/PossiblyTransferUserDefinedAddress.sol:40:9: Warning: Integer Overflow.
+        balances[to] += msg.value
+Integer Overflow occurs if:
+    balances[to] = 1
+/sb/PossiblyTransferUserDefinedAddress.sol:55:9: Warning: Integer Overflow.
+        address(safesender).delegatecall(abi.encodeWithSignature("send(address,uint256)", to, amount))
+Integer Overflow occurs if:
+    balances[msg.sender] = 0
+    amount = 0
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /sb/PossiblyTransferUserDefinedAddress.sol:SafeSending:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 93.4%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:	====== Analysis Completed ======

@@ -1,0 +1,31 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:8:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Reentrancy() public payable {}
+    ^-------------------------------------^
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:18:13: Warning: Return value of low-level calls not used.
+            msg.sender.call.value(e)("");
+            ^--------------------------^
+
+INFO:root:contract /sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 99.7%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:14:25: Warning: Integer Overflow.
+            uint256 e = etherAmount + (tokenAmount * 2)
+Integer Overflow occurs if:
+    tokenBalance[msg.sender] = 35266043051444515868091559918320622729120917948761560674715752272251320237564
+    etherBalance[msg.sender] = 95861605623551949485089272807291725301144645043131994733062851046233637583860
+/sb/ReentrantVulnerableNoEtherLossUserDefinedAddress.sol:27:13: Warning: Integer Overflow.
+            tokenBalance[to] += amount
+Integer Overflow occurs if:
+    tokenBalance[to] = 66856184261385214108408597654402785422430169472278770250914080072048199204049
+    amount = 57938452453005874615280298637860938028508748633530783054289495821861177524225
+    tokenBalance[msg.sender] = 57938452453005874615280298637860938028508748633530783054289495821861177524225
+INFO:symExec:	====== Analysis Completed ======

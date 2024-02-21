@@ -1,0 +1,52 @@
+[INFO] | 2024-02-20 11:09:53 AM | analyzer.ReentrantCodePartsFixedAddress | Analysis started at: 2024-02-20 11:09:53 AM
+[INFO] | 2024-02-20 11:09:53 AM | analyzer.ReentrantCodePartsFixedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Generating return summary for Reentrancy
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Return summary generated for Reentrancy
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Processed function Reentrancy
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Generating return summary for slitherConstructorVariables
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Return summary generated for slitherConstructorVariables
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Processed function slitherConstructorVariables
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Generating return summary for nonReentrant
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Return summary generated for nonReentrant
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Processed function nonReentrant
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Generating return summary for withdrawBalance
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Return summary generated for withdrawBalance
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Processed function withdrawBalance
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Value Range Analysis took 0.002314 seconds
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Dependency detection started!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Static Analysis took 1.813129 seconds
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Dependency does not exist
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Symbolic execution is not needed!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Analysis finished!
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Analysis took 1.813358 seconds
+[INFO] | 2024-02-20 11:09:55 AM | analyzer.ReentrantCodePartsFixedAddress | Analysis finished at: 2024-02-20 11:09:55 AM
+[36m[#] Analysing started: ReentrantCodePartsFixedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for modifier nonReentrant[0m
+[36m[#] Interprocedural CFG generated for modifer nonReentrant[0m
+[36m[#] Interprocedural CFG generation started for Reentrancy[0m
+[36m[#] Interprocedural CFG generated for Reentrancy[0m
+[36m[#] Interprocedural CFG generation started for withdrawBalance[0m
+[36m[#] Interprocedural CFG generated for withdrawBalance[0m
+[36m[#] SDG generation started for Reentrancy[0m
+[36m[#] SDG generated for Reentrancy[0m
+[36m[#] SDG generation started for withdrawBalance[0m
+[36m[#] SDG generated for withdrawBalance[0m
+[36m[#] SDG generation started for modifier nonReentrant[0m
+[36m[#] SDG generated for modifier nonReentrant[0m
+[36m[#] Analysis took 1.813358 seconds[0m
+[36m[#] Analysis completed: ReentrantCodePartsFixedAddress.sol [0m

@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": "ethor-with-reconstruction '/sb/Reentrancy.hex' --prune-strategy=aggressive --predicate-inlining-strategy=linear --preanalysis -v",
+        "detach": true,
+        "entrypoint": null,
+        "image": "smartbugs/ethor:2023",
+        "user": 0,
+        "volumes": {
+            "C:\\Users\\Lisa\\AppData\\Local\\Temp\\tmpmkw0rbgz": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "\\Users\\Lisa\\Documents\\Uni\\Diplomarbeit\\testdata_new\\DelegatedReentrancy\\v5\\Reentrant\\NonVulnerable\\UserDefinedAddress\\Reentrancy.hex",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "python": "3.10.4.final.0 (64 bit)",
+        "release": "10",
+        "smartbugs": "2.0.8",
+        "system": "Windows",
+        "version": "10.0.19045"
+    },
+    "result": {
+        "duration": 2.4168782234191895,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1708372535.3297596
+    },
+    "runid": "20240219_195533",
+    "solc": null,
+    "tool": {
+        "bin": null,
+        "command": "ethor-with-reconstruction '$FILENAME' --prune-strategy=aggressive --predicate-inlining-strategy=linear --preanalysis -v",
+        "cpu_quota": null,
+        "entrypoint": null,
+        "id": "ethor-2023",
+        "image": "smartbugs/ethor:2023",
+        "info": "eThor is a sound static analyzer for EVM smart contracts based on HoRSt.",
+        "mem_limit": null,
+        "mode": "runtime",
+        "name": "eThor",
+        "origin": "https://secpriv.wien/ethor",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "2023"
+    }
+}

@@ -1,0 +1,32 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/ReentrantNonVulnerableUserDefinedAddress.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> /sb/ReentrantNonVulnerableUserDefinedAddress.sol
+
+Warning: Return value of low-level calls not used.
+  --> /sb/ReentrantNonVulnerableUserDefinedAddress.sol:16:9:
+   |
+16 |         msg.sender.call{value: e}("");
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+INFO:root:contract /sb/ReentrantNonVulnerableUserDefinedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 80.8%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantNonVulnerableUserDefinedAddress.sol:13:21: Warning: Integer Overflow.
+        uint256 e = etherAmount + (tokenAmount * 2)
+Integer Overflow occurs if:
+    tokenBalance[msg.sender] = 35266043051444515868091559918320622729120917948761560674715752272251320237564
+    etherBalance[msg.sender] = 95861605623551949485089272807291725301144645043131994733062851046233637583860
+/sb/ReentrantNonVulnerableUserDefinedAddress.sol:20:9: Warning: Integer Overflow.
+        etherBalance[msg.sender] += msg.value
+Integer Overflow occurs if:
+    etherBalance[msg.sender] = 1
+INFO:symExec:	====== Analysis Completed ======

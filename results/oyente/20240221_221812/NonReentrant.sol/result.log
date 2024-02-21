@@ -1,0 +1,44 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+INFO:CryticCompile:Compilation warnings/errors on /sb/NonReentrant.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> /sb/NonReentrant.sol
+
+Warning: Return value of low-level calls not used.
+  --> /sb/NonReentrant.sol:21:9:
+   |
+21 |         address(calculator).delegatecall(abi.encodeWithSignature("calc(uint16,uint16)", a, 42));
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Warning: Function state mutability can be restricted to pure
+ --> /sb/NonReentrant.sol:4:5:
+  |
+4 |     function calc(uint16 a, uint16 b) public returns (uint) {
+  |     ^ (Relevant source part starts here and spans across multiple lines).
+
+
+INFO:root:contract /sb/NonReentrant.sol:CalculatorUser:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 67.2%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/NonReentrant.sol:21:9: Warning: Integer Underflow.
+        address(calculator).delegatecall(abi.encodeWithSignature("calc(uint16,uint16)", a, 42))
+INFO:symExec:/sb/NonReentrant.sol:21:9: Warning: Integer Overflow.
+        address(calculator).delegatecall(abi.encodeWithSignature("calc(uint16,uint16)", a, 42))
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /sb/NonReentrant.sol:Calculator:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 80.9%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:	====== Analysis Completed ======

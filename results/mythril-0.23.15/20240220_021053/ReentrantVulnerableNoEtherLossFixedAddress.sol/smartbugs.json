@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/ReentrantVulnerableNoEtherLossFixedAddress.sol' '0' '/sb/bin' '0'",
+        "image": "smartbugs/mythril:0.23.15",
+        "user": 0,
+        "volumes": {
+            "C:\\Users\\Lisa\\AppData\\Local\\Temp\\tmp670_us7h": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "\\Users\\Lisa\\Documents\\Uni\\Diplomarbeit\\testdata_new\\DelegatedReentrancy\\v6\\Reentrant\\Vulnerable\\NoEtherLoss\\FixedAddress\\ReentrantVulnerableNoEtherLossFixedAddress.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "python": "3.10.4.final.0 (64 bit)",
+        "release": "10",
+        "smartbugs": "2.0.8",
+        "system": "Windows",
+        "version": "10.0.19045"
+    },
+    "result": {
+        "duration": 31.154934644699097,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1708395055.1119995
+    },
+    "runid": "20240220_021053",
+    "solc": "0.6.12",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "mythril-0.23.15",
+        "image": "smartbugs/mythril:0.23.15",
+        "info": "Mythril analyses EVM bytecode using symbolic analysis, taint analysis and control flow checking to detect a variety of security vulnerabilities.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Mythril",
+        "origin": "https://github.com/ConsenSys/mythril",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0.23.15"
+    }
+}

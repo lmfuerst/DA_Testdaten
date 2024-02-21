@@ -1,0 +1,44 @@
+[INFO] | 2024-02-20 11:10:09 AM | analyzer.PossiblySendFixedAddress | Analysis started at: 2024-02-20 11:10:09 AM
+[INFO] | 2024-02-20 11:10:09 AM | analyzer.PossiblySendFixedAddress | Found version: 0.4.26
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Callgraph generation started!
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Callgraph generation finished!
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Interprocedural CFG generation started!
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Interprocedural CFG generation finished!
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Storage dependency graph generation started!
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Storage dependency graph generation finished!
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Value Range Analysis started
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Generating return summary for Reentrancy
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Return summary generated for Reentrancy
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | State variable assignement do not exist
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Processed function Reentrancy
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Generating return summary for withdrawBalance
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Return summary generated for withdrawBalance
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Processed function withdrawBalance
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Generating return summary for slitherConstructorVariables
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Return summary generated for slitherConstructorVariables
+[INFO] | 2024-02-20 11:10:10 AM | analyzer.PossiblySendFixedAddress | Range graph generated
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Processed function slitherConstructorVariables
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Value Range Analysis took 0.002031 seconds
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Value Range Analysis finished
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Storage dependency graph composition started!
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Storage dependency graph composition finished!
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Dependency detection started!
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Dependency detection finished!
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Static Analysis took 1.766317 seconds
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Dependency does not exist
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Symbolic execution is not needed!
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Analysis finished!
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Analysis took 1.766630 seconds
+[INFO] | 2024-02-20 11:10:11 AM | analyzer.PossiblySendFixedAddress | Analysis finished at: 2024-02-20 11:10:11 AM
+[36m[#] Analysing started: PossiblySendFixedAddress.sol[0m
+[36m[#] Interprocedural CFG generation started for Reentrancy[0m
+[36m[#] Interprocedural CFG generated for Reentrancy[0m
+[36m[#] Interprocedural CFG generation started for withdrawBalance[0m
+[36m[#] Interprocedural CFG generated for withdrawBalance[0m
+[36m[#] SDG generation started for Reentrancy[0m
+[36m[#] SDG generated for Reentrancy[0m
+[36m[#] SDG generation started for withdrawBalance[0m
+[36m[#] SDG generated for withdrawBalance[0m
+[36m[#] Analysis took 1.766630 seconds[0m
+[36m[#] Analysis completed: PossiblySendFixedAddress.sol [0m

@@ -1,0 +1,18 @@
+WARNING:root:You are using evm version 1.13.5. The supported version is 1.7.3
+incomplete push instruction at 576
+INFO:root:contract /sb/ReentrantCodePartsFixedAddress.sol:Reentrancy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 89.1%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/ReentrantCodePartsFixedAddress.sol:5:9: Warning: Integer Overflow.
+    address private receiver = addr
+Integer Overflow occurs if:
+    userBalances[msg.sender] = 0
+    lock = 0
+INFO:symExec:	====== Analysis Completed ======
