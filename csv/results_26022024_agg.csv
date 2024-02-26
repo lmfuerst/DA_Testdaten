@@ -1,0 +1,1297 @@
+;tool;sol_version;analysis;type;subtype;insecure;error;ground_truth
+0;ethor-2023;v4;bytecode;CreateBasedReentrancy;NonReentrant;1.0;0;0
+1;ethor-2023;v4;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;1.0;0;0
+2;ethor-2023;v4;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+3;ethor-2023;v4;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+4;ethor-2023;v4;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+5;ethor-2023;v4;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+6;ethor-2023;v4;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+7;ethor-2023;v4;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+8;ethor-2023;v4;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+9;ethor-2023;v4;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+10;ethor-2023;v4;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+11;ethor-2023;v4;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+12;ethor-2023;v4;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+13;ethor-2023;v4;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+14;ethor-2023;v4;bytecode;CrossFunctionReentrancy;SendFixedAddress;1.0;0;0
+15;ethor-2023;v4;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;1.0;0;0
+16;ethor-2023;v4;bytecode;CrossFunctionReentrancy;TransferFixedAddress;1.0;0;0
+17;ethor-2023;v4;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;1.0;0;0
+18;ethor-2023;v4;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+19;ethor-2023;v4;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+20;ethor-2023;v4;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+21;ethor-2023;v4;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+22;ethor-2023;v4;bytecode;DelegatedReentrancy;NonReentrant;0.0;1;0
+23;ethor-2023;v4;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;1.0;1;0
+24;ethor-2023;v4;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;1.0;1;0
+25;ethor-2023;v4;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;1;0
+26;ethor-2023;v4;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;1;0
+27;ethor-2023;v4;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;1;0
+28;ethor-2023;v4;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;1;0
+29;ethor-2023;v4;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;1;0
+30;ethor-2023;v4;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;1;0
+31;ethor-2023;v4;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;1;1
+32;ethor-2023;v4;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;1;1
+33;ethor-2023;v4;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;1;1
+34;ethor-2023;v4;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;1;1
+35;ethor-2023;v4;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+36;ethor-2023;v4;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+37;ethor-2023;v4;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+38;ethor-2023;v4;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+39;ethor-2023;v4;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+40;ethor-2023;v4;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+41;ethor-2023;v4;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+42;ethor-2023;v4;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+43;ethor-2023;v4;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+44;ethor-2023;v4;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+45;ethor-2023;v4;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+46;ethor-2023;v4;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+47;ethor-2023;v4;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;1;1
+48;ethor-2023;v5;bytecode;CreateBasedReentrancy;NonReentrant;1.0;0;0
+49;ethor-2023;v5;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;1.0;0;0
+50;ethor-2023;v5;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+51;ethor-2023;v5;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+52;ethor-2023;v5;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+53;ethor-2023;v5;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+54;ethor-2023;v5;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+55;ethor-2023;v5;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+56;ethor-2023;v5;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+57;ethor-2023;v5;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+58;ethor-2023;v5;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+59;ethor-2023;v5;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+60;ethor-2023;v5;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+61;ethor-2023;v5;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+62;ethor-2023;v5;bytecode;CrossFunctionReentrancy;SendFixedAddress;1.0;0;0
+63;ethor-2023;v5;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;1.0;0;0
+64;ethor-2023;v5;bytecode;CrossFunctionReentrancy;TransferFixedAddress;1.0;0;0
+65;ethor-2023;v5;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;1.0;0;0
+66;ethor-2023;v5;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+67;ethor-2023;v5;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+68;ethor-2023;v5;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+69;ethor-2023;v5;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+70;ethor-2023;v5;bytecode;DelegatedReentrancy;NonReentrant;0.0;1;0
+71;ethor-2023;v5;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;1.0;1;0
+72;ethor-2023;v5;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;1.0;1;0
+73;ethor-2023;v5;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;1;0
+74;ethor-2023;v5;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;1;0
+75;ethor-2023;v5;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;1;0
+76;ethor-2023;v5;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;1;0
+77;ethor-2023;v5;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;1;0
+78;ethor-2023;v5;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;1;0
+79;ethor-2023;v5;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;1;1
+80;ethor-2023;v5;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;1;1
+81;ethor-2023;v5;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;1;1
+82;ethor-2023;v5;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;1;1
+83;ethor-2023;v5;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+84;ethor-2023;v5;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+85;ethor-2023;v5;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+86;ethor-2023;v5;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+87;ethor-2023;v5;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+88;ethor-2023;v5;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+89;ethor-2023;v5;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+90;ethor-2023;v5;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+91;ethor-2023;v5;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+92;ethor-2023;v5;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+93;ethor-2023;v5;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;1;1
+94;ethor-2023;v5;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+95;ethor-2023;v5;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+96;ethor-2023;v6;bytecode;CreateBasedReentrancy;NonReentrant;1.0;0;0
+97;ethor-2023;v6;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;1.0;0;0
+98;ethor-2023;v6;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+99;ethor-2023;v6;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+100;ethor-2023;v6;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+101;ethor-2023;v6;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+102;ethor-2023;v6;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+103;ethor-2023;v6;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+104;ethor-2023;v6;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+105;ethor-2023;v6;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+106;ethor-2023;v6;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+107;ethor-2023;v6;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+108;ethor-2023;v6;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+109;ethor-2023;v6;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+110;ethor-2023;v6;bytecode;CrossFunctionReentrancy;SendFixedAddress;1.0;0;0
+111;ethor-2023;v6;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;1.0;0;0
+112;ethor-2023;v6;bytecode;CrossFunctionReentrancy;TransferFixedAddress;1.0;0;0
+113;ethor-2023;v6;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;1.0;0;0
+114;ethor-2023;v6;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+115;ethor-2023;v6;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+116;ethor-2023;v6;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+117;ethor-2023;v6;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+118;ethor-2023;v6;bytecode;DelegatedReentrancy;NonReentrant;0.0;1;0
+119;ethor-2023;v6;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;1.0;1;0
+120;ethor-2023;v6;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;1.0;1;0
+121;ethor-2023;v6;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;1;0
+122;ethor-2023;v6;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;1;0
+123;ethor-2023;v6;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;1;0
+124;ethor-2023;v6;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;1;0
+125;ethor-2023;v6;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;1;0
+126;ethor-2023;v6;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;1;0
+127;ethor-2023;v6;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;1;1
+128;ethor-2023;v6;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;1;1
+129;ethor-2023;v6;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;1;1
+130;ethor-2023;v6;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;1;1
+131;ethor-2023;v6;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+132;ethor-2023;v6;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+133;ethor-2023;v6;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+134;ethor-2023;v6;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+135;ethor-2023;v6;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+136;ethor-2023;v6;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+137;ethor-2023;v6;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+138;ethor-2023;v6;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+139;ethor-2023;v6;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+140;ethor-2023;v6;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+141;ethor-2023;v6;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+142;ethor-2023;v6;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+143;ethor-2023;v6;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+144;ethor-2023;v7;bytecode;CreateBasedReentrancy;NonReentrant;1.0;0;0
+145;ethor-2023;v7;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;1.0;0;0
+146;ethor-2023;v7;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+147;ethor-2023;v7;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+148;ethor-2023;v7;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+149;ethor-2023;v7;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+150;ethor-2023;v7;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+151;ethor-2023;v7;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+152;ethor-2023;v7;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+153;ethor-2023;v7;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+154;ethor-2023;v7;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+155;ethor-2023;v7;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+156;ethor-2023;v7;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+157;ethor-2023;v7;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+158;ethor-2023;v7;bytecode;CrossFunctionReentrancy;SendFixedAddress;1.0;0;0
+159;ethor-2023;v7;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;1.0;0;0
+160;ethor-2023;v7;bytecode;CrossFunctionReentrancy;TransferFixedAddress;1.0;0;0
+161;ethor-2023;v7;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;1.0;0;0
+162;ethor-2023;v7;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+163;ethor-2023;v7;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+164;ethor-2023;v7;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+165;ethor-2023;v7;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+166;ethor-2023;v7;bytecode;DelegatedReentrancy;NonReentrant;0.0;1;0
+167;ethor-2023;v7;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;1.0;1;0
+168;ethor-2023;v7;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;1.0;1;0
+169;ethor-2023;v7;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;1;0
+170;ethor-2023;v7;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;1;0
+171;ethor-2023;v7;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;1;0
+172;ethor-2023;v7;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;1;0
+173;ethor-2023;v7;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;1;0
+174;ethor-2023;v7;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;1;0
+175;ethor-2023;v7;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;1;1
+176;ethor-2023;v7;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;1;1
+177;ethor-2023;v7;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;1;1
+178;ethor-2023;v7;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;1;1
+179;ethor-2023;v7;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+180;ethor-2023;v7;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+181;ethor-2023;v7;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+182;ethor-2023;v7;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+183;ethor-2023;v7;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+184;ethor-2023;v7;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+185;ethor-2023;v7;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+186;ethor-2023;v7;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+187;ethor-2023;v7;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+188;ethor-2023;v7;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+189;ethor-2023;v7;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+190;ethor-2023;v7;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+191;ethor-2023;v7;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+192;ethor-2023;v8;bytecode;CreateBasedReentrancy;NonReentrant;0.0;1;0
+193;ethor-2023;v8;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;1.0;0;0
+194;ethor-2023;v8;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;1;0
+195;ethor-2023;v8;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+196;ethor-2023;v8;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;1;0
+197;ethor-2023;v8;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;1.0;1;1
+198;ethor-2023;v8;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+199;ethor-2023;v8;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+200;ethor-2023;v8;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;1;1
+201;ethor-2023;v8;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+202;ethor-2023;v8;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+203;ethor-2023;v8;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+204;ethor-2023;v8;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+205;ethor-2023;v8;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;1;0
+206;ethor-2023;v8;bytecode;CrossFunctionReentrancy;SendFixedAddress;1.0;0;0
+207;ethor-2023;v8;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;1.0;0;0
+208;ethor-2023;v8;bytecode;CrossFunctionReentrancy;TransferFixedAddress;1.0;0;0
+209;ethor-2023;v8;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;1.0;0;0
+210;ethor-2023;v8;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+211;ethor-2023;v8;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;1;1
+212;ethor-2023;v8;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+213;ethor-2023;v8;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+214;ethor-2023;v8;bytecode;DelegatedReentrancy;NonReentrant;0.0;1;0
+215;ethor-2023;v8;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;1.0;1;0
+216;ethor-2023;v8;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;1.0;1;0
+217;ethor-2023;v8;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;1;0
+218;ethor-2023;v8;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;1;0
+219;ethor-2023;v8;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;1;0
+220;ethor-2023;v8;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;1;0
+221;ethor-2023;v8;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;1;0
+222;ethor-2023;v8;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;1;0
+223;ethor-2023;v8;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;1;1
+224;ethor-2023;v8;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;1;1
+225;ethor-2023;v8;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;1;1
+226;ethor-2023;v8;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;1;1
+227;ethor-2023;v8;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+228;ethor-2023;v8;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;1.0;0;0
+229;ethor-2023;v8;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+230;ethor-2023;v8;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+231;ethor-2023;v8;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+232;ethor-2023;v8;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+233;ethor-2023;v8;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+234;ethor-2023;v8;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+235;ethor-2023;v8;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+236;ethor-2023;v8;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+237;ethor-2023;v8;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+238;ethor-2023;v8;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+239;ethor-2023;v8;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;1;1
+240;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;NonReentrant;0.0;0;0
+241;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+242;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+243;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+244;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+245;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+246;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+247;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+248;mythril-0.23.15;v4;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+249;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+250;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+251;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+252;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+253;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+254;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+255;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+256;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+257;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+258;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+259;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+260;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+261;mythril-0.23.15;v4;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+262;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+263;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+264;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+265;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+266;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+267;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+268;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+269;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+270;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+271;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+272;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+273;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+274;mythril-0.23.15;v4;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+275;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+276;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+277;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+278;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+279;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+280;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+281;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+282;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+283;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+284;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+285;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+286;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+287;mythril-0.23.15;v4;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+288;mythril-0.23.15;v4;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+289;mythril-0.23.15;v4;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+290;mythril-0.23.15;v4;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+291;mythril-0.23.15;v4;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+292;mythril-0.23.15;v4;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+293;mythril-0.23.15;v4;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+294;mythril-0.23.15;v4;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+295;mythril-0.23.15;v4;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+296;mythril-0.23.15;v4;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+297;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+298;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+299;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+300;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+301;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+302;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+303;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+304;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+305;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+306;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+307;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+308;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+309;mythril-0.23.15;v4;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+310;mythril-0.23.15;v4;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+311;mythril-0.23.15;v4;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+312;mythril-0.23.15;v4;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+313;mythril-0.23.15;v4;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+314;mythril-0.23.15;v4;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+315;mythril-0.23.15;v4;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+316;mythril-0.23.15;v4;source code;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+317;mythril-0.23.15;v4;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+318;mythril-0.23.15;v4;source code;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+319;mythril-0.23.15;v4;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+320;mythril-0.23.15;v4;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+321;mythril-0.23.15;v4;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+322;mythril-0.23.15;v4;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+323;mythril-0.23.15;v4;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+324;mythril-0.23.15;v4;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+325;mythril-0.23.15;v4;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+326;mythril-0.23.15;v4;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+327;mythril-0.23.15;v4;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+328;mythril-0.23.15;v4;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+329;mythril-0.23.15;v4;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+330;mythril-0.23.15;v4;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+331;mythril-0.23.15;v4;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+332;mythril-0.23.15;v4;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+333;mythril-0.23.15;v4;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+334;mythril-0.23.15;v4;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+335;mythril-0.23.15;v4;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+336;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;NonReentrant;0.0;0;0
+337;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+338;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+339;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+340;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+341;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+342;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+343;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+344;mythril-0.23.15;v5;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+345;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+346;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+347;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+348;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+349;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+350;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+351;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+352;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+353;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+354;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+355;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+356;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+357;mythril-0.23.15;v5;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+358;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+359;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+360;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+361;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+362;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+363;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;0;0
+364;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+365;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;0;0
+366;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+367;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+368;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+369;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+370;mythril-0.23.15;v5;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+371;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+372;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+373;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+374;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+375;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+376;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+377;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+378;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+379;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+380;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+381;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+382;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+383;mythril-0.23.15;v5;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+384;mythril-0.23.15;v5;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+385;mythril-0.23.15;v5;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+386;mythril-0.23.15;v5;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+387;mythril-0.23.15;v5;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+388;mythril-0.23.15;v5;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+389;mythril-0.23.15;v5;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+390;mythril-0.23.15;v5;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+391;mythril-0.23.15;v5;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+392;mythril-0.23.15;v5;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+393;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+394;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+395;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+396;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+397;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+398;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+399;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+400;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+401;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+402;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+403;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+404;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+405;mythril-0.23.15;v5;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+406;mythril-0.23.15;v5;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+407;mythril-0.23.15;v5;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+408;mythril-0.23.15;v5;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+409;mythril-0.23.15;v5;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+410;mythril-0.23.15;v5;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+411;mythril-0.23.15;v5;source code;DelegatedReentrancy;SendFixedAddress;1.0;0;0
+412;mythril-0.23.15;v5;source code;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+413;mythril-0.23.15;v5;source code;DelegatedReentrancy;TransferFixedAddress;1.0;0;0
+414;mythril-0.23.15;v5;source code;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+415;mythril-0.23.15;v5;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+416;mythril-0.23.15;v5;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+417;mythril-0.23.15;v5;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+418;mythril-0.23.15;v5;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+419;mythril-0.23.15;v5;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+420;mythril-0.23.15;v5;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+421;mythril-0.23.15;v5;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+422;mythril-0.23.15;v5;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+423;mythril-0.23.15;v5;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+424;mythril-0.23.15;v5;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+425;mythril-0.23.15;v5;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+426;mythril-0.23.15;v5;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+427;mythril-0.23.15;v5;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+428;mythril-0.23.15;v5;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+429;mythril-0.23.15;v5;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+430;mythril-0.23.15;v5;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+431;mythril-0.23.15;v5;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+432;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;NonReentrant;0.0;0;0
+433;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+434;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+435;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+436;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+437;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+438;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+439;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+440;mythril-0.23.15;v6;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+441;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+442;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+443;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+444;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+445;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+446;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+447;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+448;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+449;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+450;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+451;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+452;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+453;mythril-0.23.15;v6;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+454;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+455;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+456;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+457;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+458;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+459;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;0;0
+460;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+461;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;0;0
+462;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+463;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+464;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+465;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+466;mythril-0.23.15;v6;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+467;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+468;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+469;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+470;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+471;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+472;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+473;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+474;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+475;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+476;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+477;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+478;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+479;mythril-0.23.15;v6;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+480;mythril-0.23.15;v6;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+481;mythril-0.23.15;v6;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+482;mythril-0.23.15;v6;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+483;mythril-0.23.15;v6;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+484;mythril-0.23.15;v6;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+485;mythril-0.23.15;v6;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+486;mythril-0.23.15;v6;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+487;mythril-0.23.15;v6;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+488;mythril-0.23.15;v6;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+489;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+490;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+491;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+492;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+493;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+494;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+495;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+496;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+497;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+498;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+499;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+500;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+501;mythril-0.23.15;v6;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+502;mythril-0.23.15;v6;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+503;mythril-0.23.15;v6;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+504;mythril-0.23.15;v6;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+505;mythril-0.23.15;v6;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+506;mythril-0.23.15;v6;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+507;mythril-0.23.15;v6;source code;DelegatedReentrancy;SendFixedAddress;1.0;0;0
+508;mythril-0.23.15;v6;source code;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+509;mythril-0.23.15;v6;source code;DelegatedReentrancy;TransferFixedAddress;1.0;0;0
+510;mythril-0.23.15;v6;source code;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+511;mythril-0.23.15;v6;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+512;mythril-0.23.15;v6;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+513;mythril-0.23.15;v6;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+514;mythril-0.23.15;v6;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+515;mythril-0.23.15;v6;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+516;mythril-0.23.15;v6;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+517;mythril-0.23.15;v6;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+518;mythril-0.23.15;v6;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+519;mythril-0.23.15;v6;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+520;mythril-0.23.15;v6;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+521;mythril-0.23.15;v6;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+522;mythril-0.23.15;v6;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+523;mythril-0.23.15;v6;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+524;mythril-0.23.15;v6;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+525;mythril-0.23.15;v6;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+526;mythril-0.23.15;v6;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+527;mythril-0.23.15;v6;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+528;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;NonReentrant;0.0;0;0
+529;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+530;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+531;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+532;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+533;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+534;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+535;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+536;mythril-0.23.15;v7;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+537;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+538;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+539;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+540;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+541;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+542;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+543;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+544;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+545;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+546;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+547;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+548;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+549;mythril-0.23.15;v7;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+550;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+551;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+552;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+553;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+554;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+555;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;SendFixedAddress;1.0;0;0
+556;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+557;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;TransferFixedAddress;1.0;0;0
+558;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+559;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+560;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+561;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+562;mythril-0.23.15;v7;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+563;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+564;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+565;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+566;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+567;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+568;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+569;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+570;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+571;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+572;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+573;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+574;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+575;mythril-0.23.15;v7;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+576;mythril-0.23.15;v7;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+577;mythril-0.23.15;v7;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+578;mythril-0.23.15;v7;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+579;mythril-0.23.15;v7;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+580;mythril-0.23.15;v7;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+581;mythril-0.23.15;v7;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+582;mythril-0.23.15;v7;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+583;mythril-0.23.15;v7;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+584;mythril-0.23.15;v7;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+585;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+586;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+587;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+588;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+589;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+590;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+591;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+592;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+593;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+594;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+595;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+596;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+597;mythril-0.23.15;v7;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+598;mythril-0.23.15;v7;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+599;mythril-0.23.15;v7;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+600;mythril-0.23.15;v7;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+601;mythril-0.23.15;v7;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+602;mythril-0.23.15;v7;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+603;mythril-0.23.15;v7;source code;DelegatedReentrancy;SendFixedAddress;1.0;0;0
+604;mythril-0.23.15;v7;source code;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+605;mythril-0.23.15;v7;source code;DelegatedReentrancy;TransferFixedAddress;1.0;0;0
+606;mythril-0.23.15;v7;source code;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+607;mythril-0.23.15;v7;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+608;mythril-0.23.15;v7;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+609;mythril-0.23.15;v7;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+610;mythril-0.23.15;v7;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+611;mythril-0.23.15;v7;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+612;mythril-0.23.15;v7;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+613;mythril-0.23.15;v7;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+614;mythril-0.23.15;v7;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+615;mythril-0.23.15;v7;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+616;mythril-0.23.15;v7;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+617;mythril-0.23.15;v7;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+618;mythril-0.23.15;v7;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+619;mythril-0.23.15;v7;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+620;mythril-0.23.15;v7;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+621;mythril-0.23.15;v7;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+622;mythril-0.23.15;v7;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+623;mythril-0.23.15;v7;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+624;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;NonReentrant;0.0;0;0
+625;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+626;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+627;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+628;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+629;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+630;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+631;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+632;mythril-0.23.15;v8;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+633;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+634;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+635;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+636;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+637;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+638;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+639;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+640;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+641;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+642;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+643;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+644;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+645;mythril-0.23.15;v8;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+646;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+647;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+648;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+649;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+650;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+651;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+652;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+653;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+654;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+655;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+656;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+657;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+658;mythril-0.23.15;v8;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+659;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+660;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+661;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;1.0;0;0
+662;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+663;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+664;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+665;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+666;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+667;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+668;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+669;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+670;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;1.0;0;1
+671;mythril-0.23.15;v8;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+672;mythril-0.23.15;v8;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+673;mythril-0.23.15;v8;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+674;mythril-0.23.15;v8;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+675;mythril-0.23.15;v8;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+676;mythril-0.23.15;v8;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+677;mythril-0.23.15;v8;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+678;mythril-0.23.15;v8;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+679;mythril-0.23.15;v8;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+680;mythril-0.23.15;v8;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+681;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+682;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+683;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+684;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+685;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+686;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+687;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+688;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+689;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+690;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+691;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+692;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+693;mythril-0.23.15;v8;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+694;mythril-0.23.15;v8;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+695;mythril-0.23.15;v8;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+696;mythril-0.23.15;v8;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+697;mythril-0.23.15;v8;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+698;mythril-0.23.15;v8;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+699;mythril-0.23.15;v8;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+700;mythril-0.23.15;v8;source code;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+701;mythril-0.23.15;v8;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+702;mythril-0.23.15;v8;source code;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+703;mythril-0.23.15;v8;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+704;mythril-0.23.15;v8;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+705;mythril-0.23.15;v8;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+706;mythril-0.23.15;v8;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+707;mythril-0.23.15;v8;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+708;mythril-0.23.15;v8;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+709;mythril-0.23.15;v8;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+710;mythril-0.23.15;v8;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+711;mythril-0.23.15;v8;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+712;mythril-0.23.15;v8;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+713;mythril-0.23.15;v8;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+714;mythril-0.23.15;v8;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+715;mythril-0.23.15;v8;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+716;mythril-0.23.15;v8;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+717;mythril-0.23.15;v8;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+718;mythril-0.23.15;v8;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+719;mythril-0.23.15;v8;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+720;oyente;v4;bytecode;CreateBasedReentrancy;NonReentrant;0.0;0;0
+721;oyente;v4;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+722;oyente;v4;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+723;oyente;v4;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+724;oyente;v4;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+725;oyente;v4;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+726;oyente;v4;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+727;oyente;v4;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+728;oyente;v4;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+729;oyente;v4;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+730;oyente;v4;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+731;oyente;v4;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+732;oyente;v4;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+733;oyente;v4;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+734;oyente;v4;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+735;oyente;v4;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+736;oyente;v4;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+737;oyente;v4;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+738;oyente;v4;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+739;oyente;v4;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+740;oyente;v4;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+741;oyente;v4;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+742;oyente;v4;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+743;oyente;v4;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+744;oyente;v4;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+745;oyente;v4;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+746;oyente;v4;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+747;oyente;v4;bytecode;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+748;oyente;v4;bytecode;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+749;oyente;v4;bytecode;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+750;oyente;v4;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+751;oyente;v4;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+752;oyente;v4;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+753;oyente;v4;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+754;oyente;v4;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+755;oyente;v4;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+756;oyente;v4;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+757;oyente;v4;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+758;oyente;v4;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+759;oyente;v4;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+760;oyente;v4;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+761;oyente;v4;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+762;oyente;v4;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+763;oyente;v4;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+764;oyente;v4;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+765;oyente;v4;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+766;oyente;v4;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+767;oyente;v4;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+768;oyente;v4;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+769;oyente;v4;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+770;oyente;v4;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+771;oyente;v4;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+772;oyente;v4;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+773;oyente;v4;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+774;oyente;v4;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+775;oyente;v4;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+776;oyente;v4;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+777;oyente;v4;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+778;oyente;v4;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+779;oyente;v4;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+780;oyente;v4;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+781;oyente;v4;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+782;oyente;v4;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+783;oyente;v4;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+784;oyente;v4;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+785;oyente;v4;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+786;oyente;v4;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+787;oyente;v4;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+788;oyente;v4;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+789;oyente;v4;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+790;oyente;v4;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+791;oyente;v4;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+792;oyente;v4;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+793;oyente;v4;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+794;oyente;v4;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+795;oyente;v4;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+796;oyente;v4;source code;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+797;oyente;v4;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+798;oyente;v4;source code;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+799;oyente;v4;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+800;oyente;v4;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+801;oyente;v4;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+802;oyente;v4;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+803;oyente;v4;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+804;oyente;v4;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+805;oyente;v4;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+806;oyente;v4;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+807;oyente;v4;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+808;oyente;v4;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+809;oyente;v4;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+810;oyente;v4;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+811;oyente;v4;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+812;oyente;v4;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+813;oyente;v4;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+814;oyente;v4;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+815;oyente;v4;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+816;oyente;v5;bytecode;CreateBasedReentrancy;NonReentrant;0.0;1;0
+817;oyente;v5;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+818;oyente;v5;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+819;oyente;v5;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+820;oyente;v5;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+821;oyente;v5;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+822;oyente;v5;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+823;oyente;v5;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+824;oyente;v5;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+825;oyente;v5;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+826;oyente;v5;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+827;oyente;v5;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+828;oyente;v5;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+829;oyente;v5;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+830;oyente;v5;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+831;oyente;v5;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+832;oyente;v5;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+833;oyente;v5;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+834;oyente;v5;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+835;oyente;v5;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+836;oyente;v5;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+837;oyente;v5;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+838;oyente;v5;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+839;oyente;v5;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+840;oyente;v5;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+841;oyente;v5;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+842;oyente;v5;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+843;oyente;v5;bytecode;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+844;oyente;v5;bytecode;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+845;oyente;v5;bytecode;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+846;oyente;v5;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+847;oyente;v5;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+848;oyente;v5;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+849;oyente;v5;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+850;oyente;v5;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+851;oyente;v5;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+852;oyente;v5;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+853;oyente;v5;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+854;oyente;v5;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+855;oyente;v5;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+856;oyente;v5;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+857;oyente;v5;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+858;oyente;v5;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+859;oyente;v5;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+860;oyente;v5;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+861;oyente;v5;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+862;oyente;v5;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+863;oyente;v5;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+864;oyente;v5;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+865;oyente;v5;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+866;oyente;v5;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+867;oyente;v5;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+868;oyente;v5;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+869;oyente;v5;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+870;oyente;v5;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+871;oyente;v5;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+872;oyente;v5;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+873;oyente;v5;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+874;oyente;v5;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+875;oyente;v5;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+876;oyente;v5;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+877;oyente;v5;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+878;oyente;v5;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+879;oyente;v5;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+880;oyente;v5;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+881;oyente;v5;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+882;oyente;v5;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+883;oyente;v5;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+884;oyente;v5;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+885;oyente;v5;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+886;oyente;v5;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+887;oyente;v5;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+888;oyente;v5;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+889;oyente;v5;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+890;oyente;v5;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+891;oyente;v5;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+892;oyente;v5;source code;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+893;oyente;v5;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+894;oyente;v5;source code;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+895;oyente;v5;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+896;oyente;v5;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+897;oyente;v5;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+898;oyente;v5;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+899;oyente;v5;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+900;oyente;v5;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+901;oyente;v5;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+902;oyente;v5;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+903;oyente;v5;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+904;oyente;v5;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+905;oyente;v5;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+906;oyente;v5;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+907;oyente;v5;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+908;oyente;v5;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+909;oyente;v5;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+910;oyente;v5;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+911;oyente;v5;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+912;oyente;v6;bytecode;CreateBasedReentrancy;NonReentrant;0.0;1;0
+913;oyente;v6;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;1;0
+914;oyente;v6;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;1;0
+915;oyente;v6;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+916;oyente;v6;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+917;oyente;v6;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+918;oyente;v6;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+919;oyente;v6;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+920;oyente;v6;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;1;1
+921;oyente;v6;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+922;oyente;v6;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+923;oyente;v6;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+924;oyente;v6;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+925;oyente;v6;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+926;oyente;v6;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+927;oyente;v6;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+928;oyente;v6;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+929;oyente;v6;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+930;oyente;v6;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+931;oyente;v6;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+932;oyente;v6;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+933;oyente;v6;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+934;oyente;v6;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+935;oyente;v6;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+936;oyente;v6;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+937;oyente;v6;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+938;oyente;v6;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+939;oyente;v6;bytecode;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+940;oyente;v6;bytecode;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+941;oyente;v6;bytecode;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+942;oyente;v6;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+943;oyente;v6;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+944;oyente;v6;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+945;oyente;v6;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+946;oyente;v6;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+947;oyente;v6;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+948;oyente;v6;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+949;oyente;v6;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+950;oyente;v6;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+951;oyente;v6;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+952;oyente;v6;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+953;oyente;v6;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+954;oyente;v6;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+955;oyente;v6;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+956;oyente;v6;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+957;oyente;v6;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+958;oyente;v6;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+959;oyente;v6;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+960;oyente;v6;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+961;oyente;v6;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+962;oyente;v6;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+963;oyente;v6;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+964;oyente;v6;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+965;oyente;v6;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+966;oyente;v6;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+967;oyente;v6;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+968;oyente;v6;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+969;oyente;v6;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+970;oyente;v6;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+971;oyente;v6;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+972;oyente;v6;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+973;oyente;v6;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+974;oyente;v6;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+975;oyente;v6;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+976;oyente;v6;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+977;oyente;v6;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+978;oyente;v6;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+979;oyente;v6;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+980;oyente;v6;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+981;oyente;v6;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+982;oyente;v6;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+983;oyente;v6;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+984;oyente;v6;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+985;oyente;v6;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+986;oyente;v6;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+987;oyente;v6;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+988;oyente;v6;source code;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+989;oyente;v6;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+990;oyente;v6;source code;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+991;oyente;v6;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+992;oyente;v6;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+993;oyente;v6;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+994;oyente;v6;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+995;oyente;v6;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+996;oyente;v6;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+997;oyente;v6;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+998;oyente;v6;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+999;oyente;v6;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1000;oyente;v6;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+1001;oyente;v6;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1002;oyente;v6;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1003;oyente;v6;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1004;oyente;v6;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1005;oyente;v6;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1006;oyente;v6;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1007;oyente;v6;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1008;oyente;v7;bytecode;CreateBasedReentrancy;NonReentrant;0.0;1;0
+1009;oyente;v7;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;1;0
+1010;oyente;v7;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;1;0
+1011;oyente;v7;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1012;oyente;v7;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1013;oyente;v7;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1014;oyente;v7;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+1015;oyente;v7;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+1016;oyente;v7;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;1;1
+1017;oyente;v7;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+1018;oyente;v7;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1019;oyente;v7;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1020;oyente;v7;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1021;oyente;v7;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1022;oyente;v7;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+1023;oyente;v7;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1024;oyente;v7;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1025;oyente;v7;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1026;oyente;v7;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1027;oyente;v7;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1028;oyente;v7;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1029;oyente;v7;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1030;oyente;v7;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+1031;oyente;v7;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1032;oyente;v7;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1033;oyente;v7;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+1034;oyente;v7;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+1035;oyente;v7;bytecode;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+1036;oyente;v7;bytecode;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+1037;oyente;v7;bytecode;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+1038;oyente;v7;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+1039;oyente;v7;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1040;oyente;v7;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1041;oyente;v7;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1042;oyente;v7;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1043;oyente;v7;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+1044;oyente;v7;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1045;oyente;v7;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1046;oyente;v7;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1047;oyente;v7;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1048;oyente;v7;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+1049;oyente;v7;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1050;oyente;v7;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1051;oyente;v7;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1052;oyente;v7;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1053;oyente;v7;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1054;oyente;v7;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1055;oyente;v7;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1056;oyente;v7;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+1057;oyente;v7;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1058;oyente;v7;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;1;0
+1059;oyente;v7;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1060;oyente;v7;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1061;oyente;v7;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1062;oyente;v7;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+1063;oyente;v7;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+1064;oyente;v7;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1065;oyente;v7;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+1066;oyente;v7;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1067;oyente;v7;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1068;oyente;v7;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1069;oyente;v7;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1070;oyente;v7;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+1071;oyente;v7;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1072;oyente;v7;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1073;oyente;v7;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1074;oyente;v7;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1075;oyente;v7;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1076;oyente;v7;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1077;oyente;v7;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1078;oyente;v7;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+1079;oyente;v7;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1080;oyente;v7;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1081;oyente;v7;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+1082;oyente;v7;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1083;oyente;v7;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+1084;oyente;v7;source code;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+1085;oyente;v7;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+1086;oyente;v7;source code;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+1087;oyente;v7;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1088;oyente;v7;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1089;oyente;v7;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1090;oyente;v7;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1091;oyente;v7;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+1092;oyente;v7;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1093;oyente;v7;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1094;oyente;v7;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1095;oyente;v7;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1096;oyente;v7;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+1097;oyente;v7;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1098;oyente;v7;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1099;oyente;v7;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1100;oyente;v7;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1101;oyente;v7;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1102;oyente;v7;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1103;oyente;v7;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1104;oyente;v8;bytecode;CreateBasedReentrancy;NonReentrant;0.0;1;0
+1105;oyente;v8;bytecode;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;1;0
+1106;oyente;v8;bytecode;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;1;0
+1107;oyente;v8;bytecode;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1108;oyente;v8;bytecode;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1109;oyente;v8;bytecode;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1110;oyente;v8;bytecode;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+1111;oyente;v8;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+1112;oyente;v8;bytecode;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;1;1
+1113;oyente;v8;bytecode;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+1114;oyente;v8;bytecode;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1115;oyente;v8;bytecode;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1116;oyente;v8;bytecode;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1117;oyente;v8;bytecode;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1118;oyente;v8;bytecode;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+1119;oyente;v8;bytecode;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1120;oyente;v8;bytecode;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1121;oyente;v8;bytecode;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1122;oyente;v8;bytecode;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1123;oyente;v8;bytecode;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;0;1
+1124;oyente;v8;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1125;oyente;v8;bytecode;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1126;oyente;v8;bytecode;DelegatedReentrancy;NonReentrant;0.0;0;0
+1127;oyente;v8;bytecode;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1128;oyente;v8;bytecode;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1129;oyente;v8;bytecode;DelegatedReentrancy;ReentrantCodePartsFixedAddress;1.0;0;0
+1130;oyente;v8;bytecode;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;1.0;0;0
+1131;oyente;v8;bytecode;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+1132;oyente;v8;bytecode;DelegatedReentrancy;SendUserDefinedAddress;0.0;0;0
+1133;oyente;v8;bytecode;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+1134;oyente;v8;bytecode;DelegatedReentrancy;TransferUserDefinedAddress;0.0;0;0
+1135;oyente;v8;bytecode;DelegatedReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1136;oyente;v8;bytecode;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1137;oyente;v8;bytecode;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1138;oyente;v8;bytecode;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1139;oyente;v8;bytecode;SameFunctionReentrancy;NonReentrant;0.0;0;0
+1140;oyente;v8;bytecode;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1141;oyente;v8;bytecode;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1142;oyente;v8;bytecode;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1143;oyente;v8;bytecode;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1144;oyente;v8;bytecode;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+1145;oyente;v8;bytecode;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1146;oyente;v8;bytecode;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1147;oyente;v8;bytecode;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1148;oyente;v8;bytecode;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;1.0;0;1
+1149;oyente;v8;bytecode;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1150;oyente;v8;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1151;oyente;v8;bytecode;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1152;sailfish;v4;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+1153;sailfish;v4;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1154;sailfish;v4;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1155;sailfish;v4;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1156;sailfish;v4;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1157;sailfish;v4;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1158;sailfish;v4;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1159;sailfish;v4;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1160;sailfish;v4;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+1161;sailfish;v4;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+1162;sailfish;v4;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1163;sailfish;v4;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1164;sailfish;v4;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1165;sailfish;v4;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1166;sailfish;v4;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+1167;sailfish;v4;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1168;sailfish;v4;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1169;sailfish;v4;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1170;sailfish;v4;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1171;sailfish;v4;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1172;sailfish;v4;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1173;sailfish;v4;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+1174;sailfish;v4;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+1175;sailfish;v4;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1176;sailfish;v4;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1177;sailfish;v4;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1178;sailfish;v4;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1179;sailfish;v4;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+1180;sailfish;v4;source code;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+1181;sailfish;v4;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+1182;sailfish;v4;source code;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+1183;sailfish;v4;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1184;sailfish;v4;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1185;sailfish;v4;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1186;sailfish;v4;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1187;sailfish;v4;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+1188;sailfish;v4;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1189;sailfish;v4;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1190;sailfish;v4;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1191;sailfish;v4;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1192;sailfish;v4;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+1193;sailfish;v4;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1194;sailfish;v4;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1195;sailfish;v4;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1196;sailfish;v4;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1197;sailfish;v4;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1198;sailfish;v4;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1199;sailfish;v4;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+1200;sailfish;v5;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+1201;sailfish;v5;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1202;sailfish;v5;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1203;sailfish;v5;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1204;sailfish;v5;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1205;sailfish;v5;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1206;sailfish;v5;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1207;sailfish;v5;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1208;sailfish;v5;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+1209;sailfish;v5;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+1210;sailfish;v5;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1211;sailfish;v5;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1212;sailfish;v5;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1213;sailfish;v5;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1214;sailfish;v5;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+1215;sailfish;v5;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1216;sailfish;v5;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1217;sailfish;v5;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1218;sailfish;v5;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1219;sailfish;v5;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1220;sailfish;v5;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1221;sailfish;v5;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+1222;sailfish;v5;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+1223;sailfish;v5;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1224;sailfish;v5;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1225;sailfish;v5;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1226;sailfish;v5;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1227;sailfish;v5;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+1228;sailfish;v5;source code;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+1229;sailfish;v5;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+1230;sailfish;v5;source code;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+1231;sailfish;v5;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1232;sailfish;v5;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1233;sailfish;v5;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1234;sailfish;v5;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1235;sailfish;v5;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+1236;sailfish;v5;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1237;sailfish;v5;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1238;sailfish;v5;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;1;0
+1239;sailfish;v5;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;1;0
+1240;sailfish;v5;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+1241;sailfish;v5;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1242;sailfish;v5;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1243;sailfish;v5;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1244;sailfish;v5;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;1;1
+1245;sailfish;v5;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;1;1
+1246;sailfish;v5;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1247;sailfish;v5;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+1248;sailfish;v6;source code;CreateBasedReentrancy;NonReentrant;0.0;0;0
+1249;sailfish;v6;source code;CreateBasedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1250;sailfish;v6;source code;CreateBasedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1251;sailfish;v6;source code;CreateBasedReentrancy;ReentrantCodePartsFixedAddress;0.0;0;0
+1252;sailfish;v6;source code;CreateBasedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;0;0
+1253;sailfish;v6;source code;CreateBasedReentrancy;VulnerableEtherLossFixedAddress;0.0;0;1
+1254;sailfish;v6;source code;CreateBasedReentrancy;VulnerableEtherLossUserDefinedAddress;1.0;0;1
+1255;sailfish;v6;source code;CreateBasedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1256;sailfish;v6;source code;CreateBasedReentrancy;VulnerableNoEtherLossUserDefinedAddress;1.0;0;1
+1257;sailfish;v6;source code;CrossFunctionReentrancy;NonReentrant;0.0;0;0
+1258;sailfish;v6;source code;CrossFunctionReentrancy;NonVulnerableFixedAddress;0.0;1;0
+1259;sailfish;v6;source code;CrossFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;1;0
+1260;sailfish;v6;source code;CrossFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;1;0
+1261;sailfish;v6;source code;CrossFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;1;0
+1262;sailfish;v6;source code;CrossFunctionReentrancy;SendFixedAddress;0.0;0;0
+1263;sailfish;v6;source code;CrossFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1264;sailfish;v6;source code;CrossFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1265;sailfish;v6;source code;CrossFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1266;sailfish;v6;source code;CrossFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;1;1
+1267;sailfish;v6;source code;CrossFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;1;1
+1268;sailfish;v6;source code;CrossFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;1;1
+1269;sailfish;v6;source code;CrossFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;1;1
+1270;sailfish;v6;source code;DelegatedReentrancy;NonReentrant;0.0;0;0
+1271;sailfish;v6;source code;DelegatedReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1272;sailfish;v6;source code;DelegatedReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1273;sailfish;v6;source code;DelegatedReentrancy;ReentrantCodePartsFixedAddress;0.0;1;0
+1274;sailfish;v6;source code;DelegatedReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;1;0
+1275;sailfish;v6;source code;DelegatedReentrancy;SendFixedAddress;0.0;0;0
+1276;sailfish;v6;source code;DelegatedReentrancy;SendUserDefinedAddress;1.0;0;0
+1277;sailfish;v6;source code;DelegatedReentrancy;TransferFixedAddress;0.0;0;0
+1278;sailfish;v6;source code;DelegatedReentrancy;TransferUserDefinedAddress;1.0;0;0
+1279;sailfish;v6;source code;DelegatedReentrancy;VulnerableEtherLossFixedAddress;0.0;1;1
+1280;sailfish;v6;source code;DelegatedReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;1;1
+1281;sailfish;v6;source code;DelegatedReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1282;sailfish;v6;source code;DelegatedReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
+1283;sailfish;v6;source code;SameFunctionReentrancy;NonReentrant;0.0;0;0
+1284;sailfish;v6;source code;SameFunctionReentrancy;NonVulnerableFixedAddress;0.0;0;0
+1285;sailfish;v6;source code;SameFunctionReentrancy;NonVulnerableUserDefinedAddress;0.0;0;0
+1286;sailfish;v6;source code;SameFunctionReentrancy;ReentrantCodePartsFixedAddress;0.0;1;0
+1287;sailfish;v6;source code;SameFunctionReentrancy;ReentrantCodePartsUserDefinedAddress;0.0;1;0
+1288;sailfish;v6;source code;SameFunctionReentrancy;SendFixedAddress;0.0;0;0
+1289;sailfish;v6;source code;SameFunctionReentrancy;SendUserDefinedAddress;0.0;0;0
+1290;sailfish;v6;source code;SameFunctionReentrancy;TransferFixedAddress;0.0;0;0
+1291;sailfish;v6;source code;SameFunctionReentrancy;TransferUserDefinedAddress;0.0;0;0
+1292;sailfish;v6;source code;SameFunctionReentrancy;VulnerableEtherLossFixedAddress;0.0;1;1
+1293;sailfish;v6;source code;SameFunctionReentrancy;VulnerableEtherLossUserDefinedAddress;0.0;1;1
+1294;sailfish;v6;source code;SameFunctionReentrancy;VulnerableNoEtherLossFixedAddress;0.0;0;1
+1295;sailfish;v6;source code;SameFunctionReentrancy;VulnerableNoEtherLossUserDefinedAddress;0.0;0;1
