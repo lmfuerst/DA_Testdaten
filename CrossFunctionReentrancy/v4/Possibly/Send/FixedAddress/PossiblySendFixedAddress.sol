@@ -1,3 +1,5 @@
+// based on https://github.com/uni-due-syssec/eth-reentrancy-attack-patterns/blob/master/cross-function.sol
+
 pragma solidity ^0.4.26;
 
 contract Reentrancy {
